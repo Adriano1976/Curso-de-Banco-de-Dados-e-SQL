@@ -1,0 +1,12 @@
+-- Geração de Modelo físico
+-- Sql ANSI 2003 - brModelo.
+
+
+
+CREATE TABLE CLIENTES (
+CODIGO VARCHAR(10) PRIMARY KEY,
+NOME VARCHAR(30),
+RUA VARCHAR(100),
+CIDADE VARCHAR(20)
+);
+

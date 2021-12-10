@@ -90,7 +90,7 @@ WHERE UF = 'SP';
 /* 6 - Trazer os dados dos autores do sexo masculino que tiveram livros publicos por São Paulo ou Rio de Janeiro (Questão Desafio). */
 
 SELECT AUTOR, SEXO FROM LIVROS_2 WHERE SEXO = 'M' AND (UF = 'SP' OR UF = 'RJ');
-SELECT AUTOR, SEXO, UF FROM LIVROS_2 WHERE SEXO = 'M' AND (UF = 'SP' OR UF = 'RJ');
+SELECT AUTOR, SEXO, UF FROM LIVROS_2 WHERE SEXO = 'M' AND (UF = 'SP' OR UF = 'RJ');  /* MELHOR ALTERNATIVA */
 SELECT AUTOR, SEXO, UF FROM LIVROS_2 WHERE SEXO = 'M' AND (UF IN('SP','RJ'));
 SELECT * FROM LIVROS_2 WHERE UF IN('SP','RJ') AND SEXO IN('M');
 SELECT * FROM LIVROS_2 WHERE (UF = 'SP' OR UF = 'RJ') AND SEXO = 'M';

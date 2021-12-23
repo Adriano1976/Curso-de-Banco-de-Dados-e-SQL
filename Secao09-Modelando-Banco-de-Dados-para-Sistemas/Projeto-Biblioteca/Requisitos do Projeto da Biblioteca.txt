@@ -1,0 +1,15 @@
+Base de Dados da Biblioteca.
+
+- Uma biblioteca pretende controlar empréstimos de livros. 
+- Os dados armazenados sobre cada biblioteca são: código, descrição, endereço. 
+- Uma bilbioteca PODE TER vários associados e vários livros cadastrados. 
+- Uma mesma pessoa PODE SER cadastrada em várias bibliotecas. 
+- No entanto, cada livro SÓ PODE pertencer a uma biblioteca.
+- Empréstimos de livros SÓ SÃO realizados para associados cadastrados. 
+- Todo associado DEVE TER matrícula, nome e sexo. 
+- Os livros possuem ISBN e título.
+- Em um dado momento, um livro SÓ PODE ser emprestado a um associado. 
+- Porém um associado PODE TOMAR vários livros emprestados.
+- Um livro PODE SER escrito por vários autores e um mesmo autor PODE ESCREVER vários livros. - Os dados dos aurores são: código e nome.
+- Um livro pode abordar vários assuntos e um assunto pode ser abordado por vários livros. 
+- Os dados de assuntos são: código e descrição.

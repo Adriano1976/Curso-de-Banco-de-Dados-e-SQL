@@ -1,0 +1,13 @@
+A função de um DBA é de extrema importância em uma organização, visto que este é responsável por toda a estruturação e análise de como os dados serão armazenados. Geralmente damos atenção especial ao front end ou back and, entretanto de nada adianta estes serem perfeitos se não tivermos dados para serem
+analisados, por isso podemos considerar uma Banco de Dados sendo o coração de um software. Compreenda prezado(a) aluno(a) que antes de iniciarmos o desenvolvimento de software devemos pensar na estrutura do SGDB. O desenvolvimento de um software se inicia bem antes da programação, sendo identificado os requisitos do software, uma das técnicas adotadas é a entrevista e observação. Com base no que foi apresentado, vamos imaginar que você é um profissional de alta qualidade e experiência em banco de dados, ou seja, é um DBA :) Você foi incluído em uma Squad para o desenvolvimento de um novo produto para a empresa UNITECH, especialista no ramo educacional. Como DBA tem a responsabilidade de criar toda a documentação (MER - DER - Comandos SQL) da estrutura do Banco de Dados do sistema baseado em um SGBD Relacional. Antes de iniciarmos o desenvolvimento das atividades, 
+
+vejamos abaixo o relato de uma conversa entre os stakeholders e a Squad. A conversa foi muito interessante e produtiva, onde foi possível compreender algumas regras de negócios da empresa. 
+
+- O diretor Murilo informou aos analistas que atualmente a empresa atua no ramo de cursos de Graduação, Especialização, Mestrado e Doutorado, tendo 4 campus no estado do Acre, sendo que apenas 2 deles oferecem Mestrado e Doutorado. 
+- Cada campus oferece cursos matutinos, vespertinos e noturnos, tendo diversas turmas, alunos e professores. 
+- Cada aluno SÓ PODE cursar uma turma e curso por vez. 
+- Os professores PODEM ministrar várias aulas em diversos cursos e turmas. 
+- Cada curso possui uma grade variada de disciplinas.
+- Cada disciplina é ministrada por SOMENTE um professor. 
+- Para controlar os alunos que estão ativos, se gera um registro POR ALUNO vinculado no curso e turma. 
+- Como também temos que fazer o registro de desempenho acadêmico POR UM DIÁRIO de classe que vincula: turma, aluno, professor, disciplina, faltas, notas (2 atividades) e status (aprovado, reprovado e exame).

@@ -1,0 +1,8 @@
+A empresa TOP UNIFORMES deseja um sistema que gerencie as vendas da empresa. Nesta vendas, seria importante termos o controle dos clientes que compraram, um controle de produtos com seus respectivos preços e também um controle de vendedores para que seja possível a distribuição da comissão.
+
+Restrições e Premissas:
+
+- 1 venda pode ter apenas 1 cliente;
+- 1 venda pode ter apenas 1 vendedor;
+- 1 venda pode ter vários itens, porém esses itens podem ter apenas 1 produto cada;
+- Não teremos cadastros de Empresas, pois não temos Filiais.

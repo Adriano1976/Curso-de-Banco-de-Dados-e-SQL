@@ -14,6 +14,7 @@ CREATE TABLE CURSOS(
 
 DESC CURSOS;
 
+/*
 +---------+-------------+------+-----+---------+----------------+
 | Field   | Type        | Null | Key | Default | Extra          |
 +---------+-------------+------+-----+---------+----------------+
@@ -22,6 +23,7 @@ DESC CURSOS;
 | HORAS   | int         | NO   |     | NULL    |                |
 | VALOR   | float(10,2) | NO   |     | NULL    |                |
 +---------+-------------+------+-----+---------+----------------+
+*/
 
 INSERT INTO CURSOS VALUES(NULL,'JAVA',30,500.00);
 INSERT INTO CURSOS VALUES(NULL,'FUNDAMENTOS DE BANCOS DE DADOS',40,700.00);
@@ -30,6 +32,7 @@ INSERT INTO CURSOS VALUES(NULL,'PYTHON COM BANCO DE DADOS',50,150.00);
 
 SELECT * FROM CURSOS;
 
+/*
 +---------+--------------------------------+-------+--------+
 | IDCURSO | NOME                           | HORAS | VALOR  |
 +---------+--------------------------------+-------+--------+
@@ -38,12 +41,13 @@ SELECT * FROM CURSOS;
 |       3 | FUNÇÕES EM PYTH0N              |    50 | 100.00 |
 |       4 | PYTHON COM BANCO DE DADOS      |    50 | 150.00 |
 +---------+--------------------------------+-------+--------+
+*/
 
 DELIMITER #
 
 STATUS
 
---------------
+/*
 C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe  Ver 8.0.27 for Win64 on x86_64 (MySQL Community Server - GPL)
 
 Connection id:          8
@@ -64,7 +68,7 @@ Binary data as:         Hexadecimal
 Uptime:                 1 day 20 hours 39 min 50 sec
 
 Threads: 2  Questions: 134  Slow queries: 0  Opens: 162  Flush tables: 3  Open tables: 81  Queries per second avg: 0.000
---------------
+*/
 
 CREATE PROCEDURE CAD_CURSO(P_NOME VARCHAR(30),
 						   P_HORAS INT(30),
@@ -88,6 +92,7 @@ CALL CAD_CURSO('TABLEAU AVANÇADO',50,1600.00);
 
 SELECT * FROM CURSOS;
 
+/*
 +---------+--------------------------------+-------+---------+
 | IDCURSO | NOME                           | HORAS | VALOR   |
 +---------+--------------------------------+-------+---------+
@@ -103,6 +108,7 @@ SELECT * FROM CURSOS;
 |      10 | JAVASCRIPT BÁSICO              |    20 |  400.00 |
 |      11 | TABLEAU AVANÇADO               |    50 | 1600.00 |
 +---------+--------------------------------+-------+---------+
+*/
 
 /* CRIAR UMA PROCEDURE PARA CONSULTAR CURSOS */
 
@@ -122,6 +128,7 @@ DELIMITER ;
 
 CALL CONSULTA_CURSO;
 
+/*
 +---------+--------------------------------+-------+---------+
 | IDCURSO | NOME                           | HORAS | VALOR   |
 +---------+--------------------------------+-------+---------+
@@ -137,3 +144,4 @@ CALL CONSULTA_CURSO;
 |      10 | JAVASCRIPT BÁSICO              |    20 |  400.00 |
 |      11 | TABLEAU AVANÇADO               |    50 | 1600.00 |
 +---------+--------------------------------+-------+---------+
+*/

@@ -14,6 +14,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE
 INNER JOIN ENDERECO E 
 ON C.IDCLIENTE = E.ID_CLIENTE;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | EMAIL             | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -45,6 +46,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE;
 | ADRIANA | F    | ADRIANA@GMAIL.COM | COM  | 75524678  | CENTRO     | RIO DE JANEIRO | RJ     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/
 
 CREATE VIEW RELATORIO AS
 SELECT  C.NOME, 
@@ -63,6 +65,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE;
 
 SELECT * FROM RELATORIO;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | EMAIL             | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -94,6 +97,7 @@ SELECT * FROM RELATORIO;
 | ADRIANA | F    | ADRIANA@GMAIL.COM | COM  | 75524678  | CENTRO     | RIO DE JANEIRO | RJ     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/
 
 SHOW TABLES;
 SHOW DATABASES;
@@ -122,6 +126,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE;
 
 SHOW TABLES;
 
+/*
 +--------------------+
 | Tables_in_comercio |
 +--------------------+
@@ -131,9 +136,11 @@ SHOW TABLES;
 | telefone           |
 | v_relatorio        |
 +--------------------+
+*/
 
 SELECT * FROM V_RELATORIO;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | E-MAIL            | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -165,6 +172,41 @@ SELECT * FROM V_RELATORIO;
 | ADRIANA | F    | ADRIANA@GMAIL.COM | COM  | 75524678  | CENTRO     | RIO DE JANEIRO | RJ     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/
 
 SELECT NOME, NUMERO, ESTADO
 FROM V_RELATORIO;
+
+/*
++---------+-----------+--------+
+| NOME    | NUMERO    | ESTADO |
++---------+-----------+--------+
+| JORGE   | 78458743  | ES     |
+| JORGE   | 56576876  | ES     |
+| JOAO    | 87866896  | RJ     |
+| CARLOS  | 54768899  | RJ     |
+| JOAO    | 99667587  | RJ     |
+| ANA     | 78989765  | SP     |
+| ANA     | 99766676  | SP     |
+| JOAO    | 66687899  | RJ     |
+| JORGE   | 89986668  | ES     |
+| CARLOS  | 88687909  | RJ     |
+| LAURA   | 68976565  | SE     |
+| LAURA   | 99656675  | SE     |
+| ANDRE   | 33567765  | RJ     |
+| ANDRE   | 88668786  | RJ     |
+| ANDRE   | 55689654  | RJ     |
+| GIOVANA | 88687979  | RJ     |
+| KARLA   | 88965676  | ES     |
+| LORENA  | 89966809  | PR     |
+| EDUARDO | 88679978  | SP     |
+| ANTONIO | 99655768  | PR     |
+| ANTONIO | 89955665  | SP     |
+| ELAINE  | 77455786  | RJ     |
+| ELAINE  | 89766554  | RJ     |
+| CARMEM  | 77755785  | RJ     |
+| CARMEM  | 44522578  | RJ     |
+| ADRIANA | 75524678  | RJ     |
+| NEIDE   | 999179868 | SE     |
++---------+-----------+--------+
+*/

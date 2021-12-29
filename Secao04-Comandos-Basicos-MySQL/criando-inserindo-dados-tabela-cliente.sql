@@ -52,6 +52,51 @@ SHOW TABLES;
 
 DESC CLIENTE;
 
+
+/*Tipos de dados */
+
+/*
+Todos os banos de dados possuem tipos que devem ser atribuidos aos dados de uma tabela.
+Para caracteres literais, temos char e varchar, para números temos int e float, para
+objetos como fotos e documentos, temos o blob, para textos extensos, temos o text. 
+A disciplina de banco de dados é tão fantástica que ao entendermos o porque das coisas,
+podemos iniciar já em modo avançado e um bom exemplo disso são os tipos. Há uma profissão
+dentro da área que é a do analista de performance ou tuning, esse profissional é responsável
+por analisar o banco de dados e deixá-lo mais rápido. Parece algo avançado, e é! Porém,
+com alguas atitudes simples, podemos deixar o banco sem a necessidade de atuação desse profissional.
+
+Cada caracter no banco de dados, vale 1 byte. Sendo assim, se eu entro com o dado JOÃO,
+estou entrando com 4 bytes no meu banco. E o que isso tem a ver com a tiagem de tabelas?
+
+O banco de dados funciona como um download de dados da internet. Se baixamos um arquivo de 1 giga,
+temos um temo maior que o download de 50 megas, considerando a mesma velocidade de conexão.
+
+Ao tiparmos uma tabela de modo errado ou displicente, vamos aumentar a quantidade de dados que 
+será baixada do banco de dados, prolongando assim o tempo de resposta.
+
+Uma comparacao bem didatica é o tipo char e varchar
+A palavra var, vem de variant, em ingles, ou seja, que é dinâmica. Logo, vimos que 1 caracter
+é igual a 1 byte. Vejamos então a tipagem
+
+varchar(10)
+char(10)
+
+entrando a palavra joao
+
+total de bytes varchar(10) = 4 bytes
+toal de bytes cahr(10) = 10 bytes
+
+isso ocorre pois o char não varia. Os caracteres restantes serao preenchidos com espaço. 
+eles nao ficam vazios. Enquanto que no varchar, o tipo varia conforme o dado.
+Entao utilizo sempre o varchar? Não. O charé ligeiramente mais performatico, por nao
+ter que gastar tempo variando de tamanho. Entao a regra é utilizar sempre o char quando
+sabemos que o numero de caracteres naquela coluna nao vai variar nunca. Por exemplo,
+unidade federativa, com dois digitos, sexo com um digito e assim por diante. Vista a diferença
+que podemos fazer com uma tipagem correta de tabelas, na próxima aula detalharemos os tipos do mysql
+e nos modulos específicos de cada banco, você entenderá os tipos correspondentes no sql server 
+e no oracle, que mudam muito pouco.
+*/
+
 /* FORMA 01 - OMITINDO AS COLUNAS */
 
 INSERT INTO CLIENTE VALUE('JOAO','M','JOAO@GMAIL.COM',988368273,'22923110','MAIA LACERDA - ESTACIO - RIO DE JANEIRO - RJ');
@@ -133,8 +178,7 @@ WHERE ENDERECO LIKE 'OSCAR CURY%';
 SELECT NOME, SEXO, ENDERECO FROM CLIENTE
 WHERE ENDERECO LIKE '%CENTRO%';
 
-/* LOGICA DOS PREDICADOS - OPERADORES LÓGICOS:
-
+/* OPERADORES LÓGICOS
 OR -> PARA QUE A SAÍDA DA QUERY SEJA VERDADEIRA, BASTA QUE APENAS UMA CONDICAO SEJA VERDADEIRA.
 AND -> PARA QUE A SAÍDA SEJA VERDADEIRA, TODAS AS CONDICOES PRECISAM SER VERDADEIRA.
  */
@@ -160,128 +204,3 @@ WHERE SEXO = 'M' AND ENDERECO LIKE '%RJ';
 
 SELECT NOME, SEXO, ENDERECO FROM CLIENTE
 WHERE SEXO = 'F' AND ENDERECO LIKE '%ESTACIO';
-
-/* COUNT(*), GROUP BY - PERFORMANCE COM OPERADORES LOGICOS */
-
-/* CONTANDO OS REGISTROS DE UMA TABELA */
-
-SELECT COUNT(*) FROM CLIENTE;
-SELECT COUNT(*) AS 'Quantidade de Registro da Tab. Cliente' FROM CLIENTE;
-
-/* OPERADOR GROUP BY */
-
-SELECT SEXO, COUNT(*) FROM CLIENTE GROUP BY SEXO;
-
-/* VAMOS SUPOR QUE NA TABELA CLIENTE TENHA 1 MILAO DE REGISTROS */
-
-SELECT COUNT(*) FROM CLIENTE;
-
-SELECT SEXO, COUNT(*) FROM CLIENTE GROUP BY CIDADE;
-
-/* TEMOS A SEGUINTE CONDICAO: 
-SEXO = F  
-CIDADE = RIO DE JANEIRO */
-
-/* TRATANDO A CONDICAO COM: OU / OR
-70% MULHERES = SEXO = F
-30% MORA NO RIO DE JANEIRO */
-
-SELECT NOME, SEXO, ENDERECO FROM CLIENTE WHERE SEXO = 'F' OR CIDADE = 'RIO DE JANEIRO';
-
-/* TRATANDO A CONDICAO COM: E / AND
-70% MULHERES = SEXO = F
-30% MORA NO RIO DE JANEIRO */
-
-SELECT NOME, SEXO, ENDERECO FROM CLIENTE WHERE SEXO = 'F' OR CIDADE = 'RIO DE JANEIRO';
-
-/* MAIS ALGUNS COMANDOS BASICOS - FILTRANDO VALORES NULOS -------------------------------------------------- */
-
-/* Obs.: NUNCA utilize o sinal de = par filtrar valores nulos, pois isso não sabemos o que um valor NULL é. */
-
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTE
-WHERE sexo = 'F';
-
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTE
-WHERE EMAIL = NULL;
-
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTE
-WHERE EMAIL IS NULL;
-
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTE
-WHERE EMAIL IS NOT NULL;
-
-
-/* MAIS ALGUNS COMANDOS BASICOS - UTILIZANDO O UPDATE PARA ATUALIZAR VALORES ----------------- */
-
-/* Obs.: Use sempre um SELECT antes do UPDATE para confirmar se o dado é mesmo o dado correto a ser atualizado. */
-
-SELECT NOME, EMAIL
-FROM CLIENTE;
-
-UPDATE CLIENTE
-SET EMAIL = 'LILIAN@HOTMAIL.COM';
-
-SELECT NOME, EMAIL
-FROM CLIENTE;
-
-/* WHERE - VAI SER O SEU MELHOR AMIGO DA VIDA
-PRA VIDA INTEIRA */
-
-
-SELECT * FROM CLIENTE
-WHERE NOME = 'LILIAN';
-
-UPDATE CLIENTE
-SET EMAIL = 'JOAOA@IG.COM.BR'
-WHERE NOME = 'JOAO';
-
-SELECT NOME, EMAIL
-FROM CLIENTE;
-
-UPDATE CLIENTE
-SET EMAIL = 'adrianosantos.git@hotmail.com'
-WHERE NOME = 'ADRIANO';
-
-SELECT NOME, EMAIL
-FROM CLIENTE;
-
-
-/*COMMIT E ROLLBACK */
-
-/* MAIS ALGUNS COMANDOS BASICOS - DELETANDO REGISTROS COM A CLAUSULA DELETE ------------------------ */
-
-/* Obs 1.: Cuidado ao utilizar a clausula DELETE. Faca sempre um SELECT para conferir os dados. */
-/* Obs 2.: Nunca se esqueça do WHERE ao utilizar o DELETE. Na maioria  dos casos, filtrar é necessario.*/
-
-DELETE FROM CLIENTE; -- Nunca use esse comando sem antes seguir os seguntes passos:
-
-SELECT * FROM CLIENTE WHERE NOME = 'ANA';
-
-SELECT COUNT(*) FROM CLIENTE; -- TOTAL 6
-
-SELECT COUNT(*) FROM CLIENTE WHERE NOME = 'ANA'; -- TOTAL A SER DELETADO SERA 1 CHAMADO 'ANA'
-
-DELETE FROM CLIENTE WHERE NOME = 'ANA'; -- CLIENTE DELETADO CORRETAMENTE
-
-SELECT COUNT(*) FROM CLIENTE; -- RESTANDO APENAS 5
-
-INSERT INTO CLIENTE VALUES('CARLA','F','c.lopes@uol.com', '45638854', '784599658','RUA COPPER LEAF - WILLIAMSBURG - KITCHENER');
-
--- ATENCAO PARA ESSAS SUPER DICAS A SEGUIR:
-
--- Por que está ERRADO? Por que DELETA alem do que foi pedido, como mostrado nessa projecao.
--- OR traz todo mundo com pelo menos uma das duas condicoes.
-SELECT * FROM CLIENTE WHERE NOME = 'CARLA' OR EMAIL = 'carla@terra.com.br'; 
-DELETE FROM CLIENTE WHERE NOME = 'CARLA' OR EMAIL = 'carla@terra.com.br';
-
--- Por que está CORRETO? Por que DELETA SOMENTE o que foi pedido, como mostrado nessa projecao.
--- AND traz APENAS o registro que satisfaca as duas condicoes.
-SELECT * FROM CLIENTE WHERE NOME = 'CARLA' AND EMAIL = 'carla@terra.com.br'; 
-DELETE FROM CLIENTE WHERE NOME = 'CARLA' AND EMAIL = 'carla@terra.com.br'; 
-
-
-

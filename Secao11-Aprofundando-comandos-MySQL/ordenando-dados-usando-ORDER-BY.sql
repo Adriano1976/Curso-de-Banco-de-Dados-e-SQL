@@ -22,6 +22,7 @@ INSERT INTO ALUNOS VALUES(6,'VIVIANE');
 
 SELECT * FROM ALUNOS;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -40,10 +41,12 @@ SELECT * FROM ALUNOS;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY NUMERO;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -62,10 +65,12 @@ ORDER BY NUMERO;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -84,10 +89,12 @@ ORDER BY 1;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 2;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -106,12 +113,14 @@ ORDER BY 2;
 |      6 | VIVIANE |
 |      2 | ZOE     |
 +--------+---------+
+*/
 
 /* ORDENANDO POR MAIS DE UMA COLUNA */
 
 SELECT * FROM ALUNOS
 ORDER BY 1;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -130,10 +139,12 @@ ORDER BY 1;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY NUMERO, NOME;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -152,10 +163,12 @@ ORDER BY NUMERO, NOME;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1, 2;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -174,17 +187,19 @@ ORDER BY 1, 2;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 /* MESCLANDO ORDER BY COM PROJECAO */
 
 SELECT NOME FROM ALUNOS
 ORDER BY 1, 2;
 
-ERROR 1054 (42S22): Unknown column '2' in 'order clause'
+-- ERROR 1054 (42S22): Unknown column '2' in 'order clause'
 
 SELECT NOME FROM ALUNOS
 ORDER BY NUMERO, NOME;
 
+/*
 +---------+
 | NOME    |
 +---------+
@@ -203,13 +218,14 @@ ORDER BY NUMERO, NOME;
 | ANA     |
 | VIVIANE |
 +---------+
-
+*/
 
 /* ORDER BY DESC / ASC */
 
 SELECT * FROM ALUNOS
 ORDER BY 1, 2;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -228,10 +244,12 @@ ORDER BY 1, 2;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1 ASC;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -250,10 +268,12 @@ ORDER BY 1 ASC;
 |      6 | ANA     |
 |      6 | VIVIANE |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1 DESC;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -272,10 +292,12 @@ ORDER BY 1 DESC;
 |      1 | CLARA   |
 |      1 | JANAINA |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1, 2 DESC;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -294,10 +316,12 @@ ORDER BY 1, 2 DESC;
 |      6 | VIVIANE |
 |      6 | ANA     |
 +--------+---------+
+*/
 
 SELECT * FROM ALUNOS
 ORDER BY 1 DESC, 2 DESC;
 
+/*
 +--------+---------+
 | NUMERO | NOME    |
 +--------+---------+
@@ -316,6 +340,7 @@ ORDER BY 1 DESC, 2 DESC;
 |      1 | JANAINA |
 |      1 | CLARA   |
 +--------+---------+
+*/
 
 /* ORDENANDO COM JOINS */
 
@@ -335,6 +360,7 @@ INNER JOIN ENDERECO E
 ON C.IDCLIENTE = E.ID_CLIENTE
 ORDER BY 1;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | E-MAIL            | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -366,9 +392,11 @@ ORDER BY 1;
 | LORENA  | F    | CLIENTE SEM EMAIL | CEL  | 89966809  | CENTRO     | CURITIBA       | PR     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/
 
 SHOW TABLES;
 
+/*
 +--------------------+
 | Tables_in_comercio |
 +--------------------+
@@ -381,10 +409,12 @@ SHOW TABLES;
 | v_jogadores        |
 | v_relatorio        |
 +--------------------+
+*/
 
 SELECT * FROM V_RELATORIO
 ORDER BY 1;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | E-MAIL            | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -416,4 +446,4 @@ ORDER BY 1;
 | LORENA  | F    | CLIENTE SEM EMAIL | CEL  | 89966809  | CENTRO     | CURITIBA       | PR     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
-
+*/

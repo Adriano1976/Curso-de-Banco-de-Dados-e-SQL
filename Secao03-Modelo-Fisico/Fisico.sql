@@ -4,13 +4,13 @@
 
 
 CREATE TABLE Pessoa (
-CodPessoa VARCHAR PRIMARY KEY
-)
+	CodPessoa VARCHAR PRIMARY KEY
+);
 
 CREATE TABLE Telefones (
-Telefones_PK INTEGER PRIMARY KEY,
-Telefones VARCHAR,
-CodPessoa_FK VARCHAR,
-FOREIGN KEY(CodPessoa_FK) REFERENCES Pessoa (CodPessoa)
-)
+	Telefones_PK INTEGER PRIMARY KEY,
+	Telefones VARCHAR,
+	CodPessoa_FK VARCHAR,
+	FOREIGN KEY(CodPessoa_FK) REFERENCES Pessoa (CodPessoa)
+);
 

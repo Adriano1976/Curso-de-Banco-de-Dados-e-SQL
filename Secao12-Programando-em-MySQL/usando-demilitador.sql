@@ -1,4 +1,7 @@
-/* Delimitador */
+/* O Delimitador serve para informar ao sistema de bando de dados que depois do ";"
+já pode executar o comando. Para ver qual delimitador esta sendo usado, deve-se usar
+o comando STATUS para ver qual está sendo usado. A descricão do delimitador está escrito
+da seguinte forma: "Using delimiter:  ;" */
 
 SELECT  C.NOME, 
 		C.SEXO, 
@@ -47,6 +50,7 @@ DELIMITER $
 
 SELECT * FROM V_RELATORIO$
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | E-MAIL            | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -78,6 +82,7 @@ SELECT * FROM V_RELATORIO$
 | ADRIANA | F    | ADRIANA@GMAIL.COM | COM  | 75524678  | CENTRO     | RIO DE JANEIRO | RJ     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/
 
 -- NÃO COMETA ESSES ERROS NA HORA DE UTILIZAR O DELIMITER:
 
@@ -93,6 +98,7 @@ DELIMITER ;
 
 SELECT * FROM V_RELATORIO;
 
+/*
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
 | NOME    | SEXO | E-MAIL            | TIPO | NUMERO    | BAIRRO     | CIDADE         | ESTADO |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
@@ -124,3 +130,4 @@ SELECT * FROM V_RELATORIO;
 | ADRIANA | F    | ADRIANA@GMAIL.COM | COM  | 75524678  | CENTRO     | RIO DE JANEIRO | RJ     |
 | NEIDE   | F    | NEIDE@HOTMAIL.COM | CEL  | 999179868 | ARUANA     | ARACAJU        | SE     |
 +---------+------+-------------------+------+-----------+------------+----------------+--------+
+*/

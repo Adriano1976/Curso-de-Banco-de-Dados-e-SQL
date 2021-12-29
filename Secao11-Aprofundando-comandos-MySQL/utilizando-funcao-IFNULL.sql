@@ -7,6 +7,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +---------+-------------------+--------+-----------+
 | NOME    | EMAIL             | ESTADO | NUMERO    |
 +---------+-------------------+--------+-----------+
@@ -38,6 +39,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | ADRIANA | ADRIANA@GMAIL.COM | RJ     | 75524678  |
 | NEIDE   | NEIDE@HOTMAIL.COM | SE     | 999179868 |
 +---------+-------------------+--------+-----------+
+*/
 
 -- GERANDO RELATORIO UTILIZANDO A FUNCAO IFNULL
 
@@ -53,6 +55,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +---------+---------------------------------+--------+-----------+
 | NOME    | IFNULL(C.EMAIL,'NAO TEM EMAIL') | ESTADO | NUMERO    |
 +---------+---------------------------------+--------+-----------+
@@ -84,6 +87,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | ADRIANA | ADRIANA@GMAIL.COM               | RJ     | 75524678  |
 | NEIDE   | NEIDE@HOTMAIL.COM               | SE     | 999179868 |
 +---------+---------------------------------+--------+-----------+
+*/
 
 SELECT  C.NOME, 
 		IFNULL(C.EMAIL,'************'), 
@@ -95,6 +99,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +---------+--------------------------------+--------+----------+
 | NOME    | IFNULL(C.EMAIL,'************') | ESTADO | NUMERO   |
 +---------+--------------------------------+--------+----------+
@@ -125,6 +130,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | ADRIANA | ADRIANA@GMAIL.COM              | RJ     | 44522578 |
 | JOICE   | JOICE@GMAIL.COM                | RJ     | 44522578 |
 +---------+--------------------------------+--------+----------+
+*/
 
 SELECT  C.NOME, 
 		IFNULL(C.EMAIL,'************') AS "E-MAIL", 
@@ -136,6 +142,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +---------+-------------------+--------+-----------+
 | NOME    | E-MAIL            | ESTADO | NUMERO    |
 +---------+-------------------+--------+-----------+
@@ -167,3 +174,4 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | ADRIANA | ADRIANA@GMAIL.COM | RJ     | 75524678  |
 | NEIDE   | NEIDE@HOTMAIL.COM | SE     | 999179868 |
 +---------+-------------------+--------+-----------+
+*/

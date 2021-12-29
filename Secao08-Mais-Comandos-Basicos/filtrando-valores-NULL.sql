@@ -1,0 +1,19 @@
+/* MAIS ALGUNS COMANDOS BASICOS - FILTRANDO VALORES NULOS -------------------------------------------------- */
+
+/* Obs.: NUNCA utilize o sinal de = par filtrar valores nulos, pois isso não sabemos o que um valor NULL é. */
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE sexo = 'F';
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE EMAIL = NULL;
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE EMAIL IS NULL;
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTE
+WHERE EMAIL IS NOT NULL;

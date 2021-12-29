@@ -170,6 +170,7 @@ INSERT INTO CLIENTE VALUES(NULL,'LAURA','F','LAURA@GMAIL.COM','25100569845');
 
 SELECT * FROM CLIENTE;
 
+/*
 +-----------+---------+------+-------------------------+-------------+
 | IDCLIENTE | NOME    | SEXO | EMAIL                   | CPF         |
 +-----------+---------+------+-------------------------+-------------+
@@ -181,6 +182,7 @@ SELECT * FROM CLIENTE;
 |         6 | CELIA   | M    | JCELIA@IG.COM           | 5767876889  |
 |         7 | ADRIANO | M    | ADRIANO.GIT@HOTMAIL.COM | 89456974258 |
 +-----------+---------+------+-------------------------+-------------+
+*/
 
 DESC ENDERECO;
 
@@ -239,9 +241,7 @@ WHERE TIPO = 'CEL'; /* SELECAO */
 SELECT NOME, EMAIL, IDCLIENTE
 FROM CLIENTE;
 
-SELECT ID_CLIENTE, BAIRRO, CIDADE
-FROM ENDERECO;
-
+/*
 +--------+----------------+-----------+
 | NOME   | EMAIL          | IDCLIENTE |
 +--------+----------------+-----------+
@@ -252,7 +252,12 @@ FROM ENDERECO;
 | JORGE  | JORGE@IG.COM   |         5 |
 | CELIA  | JCELIA@IG.COM  |         6 |
 +--------+----------------+-----------+
+*/
 
+SELECT ID_CLIENTE, BAIRRO, CIDADE
+FROM ENDERECO;
+
+/*
 +------------+----------+----------------+
 | ID_CLIENTE | BAIRRO   | CIDADE         |
 +------------+----------+----------------+
@@ -263,6 +268,7 @@ FROM ENDERECO;
 |          6 | FLAMENGO | RIO DE JANEIRO |
 |          5 | CENTRO   | VITORIA        |
 +------------+----------+----------------+
+*/
 
 /* NOME, SEXO, BAIRRO, CIDADE */
 
@@ -270,6 +276,7 @@ SELECT NOME, SEXO, BAIRRO, CIDADE /* PROJECAO */
 FROM CLIENTE, ENDERECO /*ORIGEM */
 WHERE IDCLIENTE = ID_CLIENTE; /* JUNCAO */
 
+/*
 +--------+------+----------+----------------+
 | NOME   | SEXO | BAIRRO   | CIDADE         |
 +--------+------+----------+----------------+
@@ -280,6 +287,7 @@ WHERE IDCLIENTE = ID_CLIENTE; /* JUNCAO */
 | JORGE  | M    | CENTRO   | VITORIA        |
 | CELIA  | M    | FLAMENGO | RIO DE JANEIRO |
 +--------+------+----------+----------------+
+*/
 
 /* WHERE = SELECAO */
 
@@ -288,12 +296,14 @@ FROM CLIENTE, ENDERECO
 WHERE IDCLIENTE = ID_CLIENTE
 AND SEXO = 'F'; 
 
+/*
 +-------+------+---------+--------------+
 | NOME  | SEXO | BAIRRO  | CIDADE       |
 +-------+------+---------+--------------+
 | ANA   | F    | JARDINS | SAO PAULO    |
 | CLARA | F    | CENTRO  | B. HORIZONTE |
 +-------+------+---------+--------------+
+*/
 
 /* WHERE IDCLIENTE = ID_CLIENTE
 AND SEXO = 'F'; -> TABELA VERDADE */
@@ -305,6 +315,7 @@ FROM CLIENTE
 INNER JOIN ENDERECO
 ON IDCLIENTE = ID_CLIENTE;
 
+/*
 +--------+------+----------+----------------+
 | NOME   | SEXO | BAIRRO   | CIDADE         |
 +--------+------+----------+----------------+
@@ -315,6 +326,7 @@ ON IDCLIENTE = ID_CLIENTE;
 | JORGE  | M    | CENTRO   | VITORIA        |
 | CELIA  | M    | FLAMENGO | RIO DE JANEIRO |
 +--------+------+----------+----------------+
+*/
 
 SELECT NOME, SEXO, BAIRRO, CIDADE /* PROJECAO */ 
 FROM CLIENTE /* ORIGEM */
@@ -338,6 +350,7 @@ ON CLIENTE.IDCLIENTE = ENDERECO.ID_CLIENTE
 INNER JOIN TELEFONE
 ON CLIENTE.IDCLIENTE = TELEFONE.ID_CLIENTE;
 
+/*
 +--------+------+---------+----------------+------+----------+
 | NOME   | SEXO | BAIRRO  | CIDADE         | TIPO | NUMERO   |
 +--------+------+---------+----------------+------+----------+
@@ -352,6 +365,7 @@ ON CLIENTE.IDCLIENTE = TELEFONE.ID_CLIENTE;
 | JORGE  | M    | CENTRO  | VITORIA        | RES  | 89986668 |
 | CARLOS | M    | ESTACIO | RIO DE JANEIRO | CEL  | 88687909 |
 +--------+------+---------+----------------+------+----------+
+*/
 
 SELECT C.NOME, C.SEXO, E.BAIRRO, E.CIDADE, T.TIPO, T.NUMERO
 FROM CLIENTE C
@@ -360,6 +374,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T 
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +--------+------+---------+----------------+------+----------+
 | NOME   | SEXO | BAIRRO  | CIDADE         | TIPO | NUMERO   |
 +--------+------+---------+----------------+------+----------+
@@ -374,6 +389,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | JORGE  | M    | CENTRO  | VITORIA        | RES  | 89986668 |
 | CARLOS | M    | ESTACIO | RIO DE JANEIRO | CEL  | 88687909 |
 +--------+------+---------+----------------+------+----------+
+*/
 
 /*
 	
@@ -434,6 +450,7 @@ CHANGE PRECO VALOR_UNITARIO INT NOT NULL;
 
 DESC PRODUTO;
 
+/*
 +----------------+-------------+------+-----+---------+----------------+
 | Field          | Type        | Null | Key | Default | Extra          |
 +----------------+-------------+------+-----+---------+----------------+
@@ -442,12 +459,14 @@ DESC PRODUTO;
 | VALOR_UNITARIO | int(11)     | NO   |     | NULL    |                |
 | FRETE          | float(10,2) | NO   |     | NULL    |                |
 +----------------+-------------+------+-----+---------+----------------+
+*/
 
 ALTER TABLE PRODUTO
 CHANGE VALOR_UNITARIO VALOR_UNITARIO INT;
 
 DESC PRODUTO;
 
+/*
 +----------------+-------------+------+-----+---------+----------------+
 | Field          | Type        | Null | Key | Default | Extra          |
 +----------------+-------------+------+-----+---------+----------------+
@@ -456,6 +475,7 @@ DESC PRODUTO;
 | VALOR_UNITARIO | int(11)     | YES  |     | NULL    |                |
 | FRETE          | float(10,2) | NO   |     | NULL    |                |
 +----------------+-------------+------+-----+---------+----------------+
+*/
 
 /* MODIFY - ALTERANDO O TIPO */
 
@@ -543,9 +563,8 @@ INSERT INTO TELEFONE VALUES(NULL,'COM','75524678',21);
 /* RELATORIO GERAL DE TODOS OS CLIENTES (TELEFONE E ENDERECO) */
 
 DESC CLIENTE;
-DESC ENDERECO;
-DESC TELEFONE;
 
+/*
 +-----------+---------------+------+-----+---------+----------------+
 | Field     | Type          | Null | Key | Default | Extra          |
 +-----------+---------------+------+-----+---------+----------------+
@@ -555,6 +574,11 @@ DESC TELEFONE;
 | EMAIL     | varchar(50)   | YES  | UNI | NULL    |                |
 | CPF       | varchar(15)   | YES  | UNI | NULL    |                |
 +-----------+---------------+------+-----+---------+----------------+
+*/
+
+DESC ENDERECO;
+
+/*
 +------------+-------------+------+-----+---------+----------------+
 | Field      | Type        | Null | Key | Default | Extra          |
 +------------+-------------+------+-----+---------+----------------+
@@ -565,6 +589,11 @@ DESC TELEFONE;
 | ESTADO     | char(2)     | NO   |     | NULL    |                |
 | ID_CLIENTE | int(11)     | YES  | UNI | NULL    |                |
 +------------+-------------+------+-----+---------+----------------+
+*/
+
+DESC TELEFONE;
+
+/*
 +------------+-------------------------+------+-----+---------+----------------+
 | Field      | Type                    | Null | Key | Default | Extra          |
 +------------+-------------------------+------+-----+---------+----------------+
@@ -573,6 +602,7 @@ DESC TELEFONE;
 | NUMERO     | varchar(10)             | NO   |     | NULL    |                |
 | ID_CLIENTE | int(11)                 | YES  | MUL | NULL    |                |
 +------------+-------------------------+------+-----+---------+----------------+
+*/
 
 
 SELECT C.IDCLIENTE, C.NOME, C.SEXO, C.EMAIL, C.CPF, 
@@ -632,12 +662,14 @@ SELECT COUNT(*) AS QUANTIDADE, SEXO
 FROM CLIENTE
 GROUP BY SEXO;
 
+/*
 +------------+------+
 | QUANTIDADE | SEXO |
 +------------+------+
 |         10 | M    |
 |         10 | F    |
 +------------+------+
+*/
 
 /* GERANDO UM RELATORIO COM OS IDS E EMAIL DAS MULHERES QUE MOREM NO CENTRO DO RIO DE JANEIRO E 
 NAO TENHAM CELULAR */
@@ -683,6 +715,7 @@ ON C.IDCLIENTE = T.ID_CLIENTE
 WHERE SEXO = 'F'
 AND BAIRRO = 'CENTRO' AND CIDADE = 'RIO DE JANEIRO';
 
+/*
 +-----------+-------------------+---------+------+------+--------+----------------+
 | IDCLIENTE | EMAIL             | NOME    | SEXO | TIPO | BAIRRO | CIDADE         |
 +-----------+-------------------+---------+------+------+--------+----------------+
@@ -695,6 +728,7 @@ AND BAIRRO = 'CENTRO' AND CIDADE = 'RIO DE JANEIRO';
 |        20 | ADRIANA@GMAIL.COM | ADRIANA | F    | COM  | CENTRO | RIO DE JANEIRO |
 |        21 | JOICE@GMAIL.COM   | JOICE   | F    | CEL  | CENTRO | RIO DE JANEIRO |
 +-----------+-------------------+---------+------+------+--------+----------------+
+*/
 
 -- OBSERVACAO: VISUALIZAR AS TABELAS CLIENTE, ENDERECO E TELEFONE JUNTOS, SOMENTE DO SEXO FEMININO DO BAIRRO CENTRO E DO RIO DE JANEIRO COM MAIS DETALHES, PORÉM TAMBEM TERMINA VISUALIZANDO CLIENTE DO SEXO MASCULINO. MAS COMO FILTRAR SOMENTE CLIENTE DO SEXO FEMININO?
 
@@ -761,6 +795,7 @@ ON C.IDCLIENTE = E.ID_CLIENTE
 INNER JOIN TELEFONE T
 ON C.IDCLIENTE = T.ID_CLIENTE;
 
+/*
 +---------+-------------------+--------+----------+
 | NOME    | EMAIL             | ESTADO | NUMERO   |
 +---------+-------------------+--------+----------+
@@ -791,4 +826,4 @@ ON C.IDCLIENTE = T.ID_CLIENTE;
 | ADRIANA | ADRIANA@GMAIL.COM | RJ     | 44522578 |
 | JOICE   | JOICE@GMAIL.COM   | RJ     | 44522578 |
 +---------+-------------------+--------+----------+
-
+*/

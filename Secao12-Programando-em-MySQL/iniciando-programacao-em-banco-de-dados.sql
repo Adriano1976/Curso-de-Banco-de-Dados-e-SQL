@@ -31,31 +31,37 @@ $
 
 CALL NOME_EMPRESA()$
 
+/*
 +------------------------+
 | EMPRESA                |
 +------------------------+
 | UNIVERSIDADE DOS DADOS |
 +------------------------+
+*/
 
 DELIMITER ;
 
 CALL NOME_EMPRESA();
 
+/*
 +------------------------+
 | EMPRESA                |
 +------------------------+
 | UNIVERSIDADE DOS DADOS |
 +------------------------+
+*/
 
 /* PROCEDURES COM PARAMETROS */
 
 SELECT 10 + 10 AS CONTA;
 
+/*
 +-------+
 | CONTA |
 +-------+
 |    20 |
 +-------+
+*/
 
 DELIMITER $
 
@@ -71,11 +77,13 @@ DELIMITER ;
 
 CALL CONTA();
 
+/*
 +-------+
 | CONTA |
 +-------+
 |    20 |
 +-------+
+*/
 
 DROP PROCEDURE CONTA;
 
@@ -91,32 +99,40 @@ $
 
 CALL CONTA(100,50)$
 
+/*
 +-------+
 | CONTA |
 +-------+
 |   150 |
 +-------+
+*/
 
 CALL CONTA(345634,4354)$
 
+/*
 +-------+
 | CONTA |
 +-------+
 | 40059 |
 +-------+
+*/
 
 CALL CONTA(55654,56760)$
 
+/*
 +--------+
 | CONTA  |
 +--------+
 | 112414 |
 +--------+
+*/
 
 CALL CONTA(45646,6766)$
 
+/*
 +-------+
 | CONTA |
 +-------+
 | 52412 |
 +-------+
+*/

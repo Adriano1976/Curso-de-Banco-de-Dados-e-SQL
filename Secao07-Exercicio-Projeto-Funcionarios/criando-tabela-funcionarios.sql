@@ -37,10 +37,7 @@ AND SEXO = 'F';
 
 /* Considerando o que vc aprendeu sobre performance, resolva os exercicios abaixo */
 
---Traga os funcionarios que trabalhem
---no departamento de filmes OU no
---departamento de roupas
-
+--Traga os funcionarios que trabalhem no departamento de filmes OU no departamento de roupas.
 --Como estamos trabalhando com OR e a segunda condicao é opcional
 --colocamos na primeira condicao quem tem mais chances de uma saida
 --verdadeira, pois a segunda condicao nao será checada nesse caso.

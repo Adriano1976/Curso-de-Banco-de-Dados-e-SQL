@@ -1,0 +1,11 @@
+1 -  É errado eu colocar a cor e a marca como atributo?
+
+Não, não é errado, mas depende muito da análise. Se fosse algo em que a cor é algo específico, como por exemplo vários tons, azul turquesa, azul dark, azul piscina, eu criaria uma tabela separada. Se fosse algo mais simples, como cor de teclado, onde não há variações, azul, verde, preto, cinza, etc... eu deixaria como atributo. Já a marca eu faria entidade separada pois podem surgir outras. Mas pra exercício, não precisa não. Só entenda os conceitos de quando fazer e quando não fazer!
+
+2 - Eu não entendi o por que de fazer a entidade marca? Não poderia colocar sem ter que criar uma entidade?
+
+Sim, vai depender da regra de negocio, porem imagine uma tabela de 1 milhão de registro de carro, ai nesta mesma tabela possui o atributo marca, ai um milhão de vezes escrito gol, gol, gol, gol etc..., vai ocupar muito mais espaço, então devido a isso é uma boa pratica criar uma tabela que marca onde sera cadastrado a marca e em seguida o id dessa marca pode ser referenciado apenas pelo id em quantos carros desejar.
+
+3 - Colocar MARCA como atributo na Entidade Carro fere a Primeira Forma Normal?
+
+A marca vai ficar redundando! Vai ficar se repetindo na primeira coluna, e no ambiente OLTP temos que evitar redundancia!

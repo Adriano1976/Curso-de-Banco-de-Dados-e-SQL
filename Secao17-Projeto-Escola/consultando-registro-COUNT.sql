@@ -65,11 +65,20 @@ GROUP BY S.SALA;
 +-------------+------+
 */
 
--- Informe o sobrenome e a quantidade de alunos que possuiem o mesmo sobrenome,
+-- Informe o sobrenome e a quantidade de alunos, que possuiem o mesmo sobrenome,
 -- desde que hoja pelo menos dois contatos com o mesmo sobrenome.
+-- Obs: Nesses comandos está sendo informado em qual base de dados e tabela estão os dados.
 
-SELECT SOBRENOME, COUNT(*) AS QUANT_ALUNO
-FROM ALUNO
-GROUP BY SOBRENOME
+SELECT ESCOLA.ALUNO.SOBRENOME, COUNT(*) AS QUANT_ALUNO
+FROM ESCOLA.ALUNO
+GROUP BY ESCOLA.ALUNO.SOBRENOME
 HAVING COUNT(*) > 1;
+
+/*
++-----------+-------------+
+| SOBRENOME | QUANT_ALUNO |
++-----------+-------------+
+| SANTOS    |           3 |
++-----------+-------------+
+*/
 

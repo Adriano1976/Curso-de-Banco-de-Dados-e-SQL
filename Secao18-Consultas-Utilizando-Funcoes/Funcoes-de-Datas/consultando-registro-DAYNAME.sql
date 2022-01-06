@@ -1,0 +1,5 @@
+-- Retorna o nome do dia de uma data armazenada na coluna de uma tabela. 
+-- Essa função também pode ser usada considerando
+-- diretamente uma data, sem necessariamente consultar tabelas.
+
+SELECT DAYNAME(DATA_ADMISSAO) FROM FUNCIONARIOS;

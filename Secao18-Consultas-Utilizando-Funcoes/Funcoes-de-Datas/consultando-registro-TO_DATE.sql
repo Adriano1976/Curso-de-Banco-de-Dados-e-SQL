@@ -1,0 +1,2 @@
+-- É uma função para conversão de tipos que converte do
+-- formato cadeia de caracteres para data.

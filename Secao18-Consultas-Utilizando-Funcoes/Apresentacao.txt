@@ -1,0 +1,11 @@
+As funções foram organizadas em três categorias:
+
+Funções de Caracteres: utilizadas para manipular dados literais (strings).
+Funções Numéricas: utilizadas para manipular números.
+Funções de Datas: utilizadas para manipular dados que representam
+datas ou tempo.
+
+Inicialmente apresentaremos uma tabela com dados, descreveremos em
+poucas palavras o objetivo de cada função e, em seguida, executaremos uma
+consulta SQL focando a tabela e apresentaremos o resultado para que o leitor
+entenda facilmente o uso da função.

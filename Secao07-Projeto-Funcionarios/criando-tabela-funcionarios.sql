@@ -49,7 +49,7 @@ AND SEXO = 'F';
 --Traga os funcionarios do sexo masculino
 --ou os funcionarios que trabalhem no setor Jardim
 
-create database exercicio;
+create database colaboradores;
 
 use exercicio;
 
@@ -65,7 +65,3 @@ create table funcionarios
 		cargo VARCHAR(100),
 		idRegiao INT
 	);
-
-show tables;
-
-desc funcionarios;

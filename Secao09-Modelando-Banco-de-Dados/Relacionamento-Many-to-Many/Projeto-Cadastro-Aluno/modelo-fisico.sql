@@ -1,0 +1,66 @@
+-- Geração de Modelo físico
+-- Sql ANSI 2003 - brModelo.
+
+-- Criando a base de dados CADASTRO_ALUNO
+
+CREATE DATABASE CADASTRO_ALUNO;
+
+
+-- Entrando na base de dados recem criada
+
+USE CADASTRO_ALUNO;
+
+
+-- Verificando se realmente está dentro da base de dados CADASTRO_ALUNO
+
+STATUS
+
+
+-- Criando as Tabelas ALUNO, TURMA e ALUNO_TURMA
+
+CREATE TABLE ALUNO (
+	IDALUNO INT AUTO_INCREMENT,
+	NOME VARCHAR(100) NOT NULL,
+	EMAIL VARCHAR(30) NOT NULL UNIQUE,
+	DATA_NASC DATE NOT NULL,
+	PRIMARY KEY(IDALUNO)
+);
+
+CREATE TABLE TURMA (
+	IDTURMA INT AUTO_INCREMENT,
+	INICIO  DATE NOT NULL,
+	FIM DATE NOT NULL,
+	OBSERVACOES VARCHAR(200) NULL,
+	PRIMARY KEY(IDTURMA)
+);
+
+CREATE TABLE ALUNO_TURMA (
+	ID_ALUNO INT,
+	ID_TURMA INT,
+	PRIMARY KEY(ID_ALUNO, ID_TURMA)	
+);
+
+
+-- Verificando se realmente as tabelas recem criadas foram feitas corretamente
+
+DESC ALUNO;
+DESC TURMA;
+DESC ALUNO_TURMA;
+
+
+-- Criando os Relacionamentos entre as tabelas ALUNO E TURMA com ALUNO_TURMA
+
+ALTER TABLE ALUNO_TURMA
+ADD CONSTRAINT FK_ALUNO
+FOREIGN KEY (ID_ALUNO)
+REFERENCES ALUNO (IDALUNO);
+
+ALTER TABLE ALUNO_TURMA
+ADD CONSTRAINT FK_TURMA  
+FOREIGN KEY (ID_TURMA)
+REFERENCES TURMA (IDTURMA);
+
+
+-- Verificando se realmente os relacionamentos recem criandos foram feitos corretamente
+
+SHOW CREATE TABLE ALUNO_TURMA;

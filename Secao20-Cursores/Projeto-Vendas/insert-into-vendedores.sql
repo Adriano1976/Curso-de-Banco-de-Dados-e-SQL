@@ -44,3 +44,9 @@ SELECT * FROM VENDEDOERE;
 |         18 | GLAUDIA    | 59586 |  74599 |  70798 |
 +------------+------------+-------+--------+--------+
 */
+
+
+INSERT INTO VENDEDORES VALUES(NULL,'GUSMAO',59996,75599,70738);
+						  
+SELECT * FROM VENDEDORES;
+SELECT * FROM VEND_TOTAL;

@@ -16,7 +16,7 @@ SELECT * FROM VENDEDORES
 */
 
 -- Retorna o valor de uma coluna arredondado para
--- “n” casasdecimais. Isso significa que se o algarismo na posição n+1 for igual
+-- “n” casas decimais. Isso significa que se o algarismo na posição n+1 for igual
 -- ou superior a 5, o algarismo na posição n é acrescido de 1.
 
 SELECT NOME, JANEIRO, ROUND(JANEIRO, 3) 

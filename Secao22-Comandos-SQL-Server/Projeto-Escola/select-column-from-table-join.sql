@@ -1,0 +1,48 @@
+/* CLAUSULA AMBIGUA */
+
+SELECT NOME, TIPO, NUMERO, BAIRRO, UF 
+FROM ALUNO  
+INNER JOIN TELEFONE
+ON IDALUNO = ID_ALUNO
+INNER JOIN ENDERECO  
+ON IDALUNO = ID_ALUNO
+GO 
+
+-- Mensagem 209, Nível 16, Estado 1, Linha 8
+-- Nome da coluna 'ID_ALUNO' ambíguo.
+
+
+-- Nessa primeira opção, esse comando SÓ trás os alunos que TEM TELEFONE.
+
+SELECT A.NOME, T.TIPO, T.NUMERO, E.BAIRRO, E.UF 
+FROM ALUNO A  
+INNER JOIN TELEFONE T
+ON A.IDALUNO = T.ID_ALUNO
+INNER JOIN ENDERECO E  
+ON A.IDALUNO = E.ID_ALUNO
+GO 
+
+-- Nessa segunda opção, esse comando trás TODOS OS ALUNOS, que tem ou não telefone.
+
+SELECT A.NOME, T.TIPO, I.NUMERO, E.BAIRRO, E.UF  
+FROM ALUNO A LEFT JOIN TELEFONE T  
+ON A.IDALUNO = T.ID_ALUNO
+INNER JOIN ENDERECO E 
+ON A.IDALUNO = E.ID_ALUNO
+GO 
+
+-- Nessa segunda opção, esse comando trás TODOS OS ALUNOS, que tem ou não telefone
+-- e usando alguns critérios IFNULL.
+
+SELECT  A.NOME, 
+		ISNULL(T.TIPO, 'SEM') AS "TIPO", 
+		ISNULL(T.NUMERO,'NUMERO') AS "TELEFONE", 
+		E.BAIRRO, 
+		E.UF
+FROM ALUNO A LEFT JOIN TELEFONE T
+ON A.IDALUNO = T.ID_ALUNO
+INNER JOIN ENDERECO E
+ON A.IDALUNO = E.ID_ALUNO
+GO
+
+

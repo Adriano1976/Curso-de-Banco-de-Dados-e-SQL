@@ -1,0 +1,8 @@
+-- Nessa segunda opção, esse comando trás TODOS OS ALUNOS, que tem ou não telefone.
+
+SELECT A.NOME, T.TIPO, I.NUMERO, E.BAIRRO, E.UF  
+FROM ALUNO A LEFT JOIN TELEFONE T  
+ON A.IDALUNO = T.ID_ALUNO
+INNER JOIN ENDERECO E 
+ON A.IDALUNO = E.ID_ALUNO
+GO 

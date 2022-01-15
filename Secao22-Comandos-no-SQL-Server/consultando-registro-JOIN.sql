@@ -24,26 +24,22 @@ GO
 
 
 /*
-NOME		TIPO	NUMERO		BAIRRO		UF
-
-ANDRE		CEL		7897889		FLAMENGO	RJ
-ANDRE		RES		4385444		FLAMENGO	RJ
-ANA			COM		4353754		MORUMBI		SP
-ANA			CEL		7544556		MORUMBI		SP
-RUI			CEL		7899589		CENTRO		MG
-JOAO		RES		4325014		CENTRO		SP
-ANDREIA		COM		4344354		FLAMENGO	RJ
-ANDREIA		CEL		2344676		FLAMENGO	RJ
-ANAKARLA	CEL		7899909		MORUMBI		SP
-ANAKARLA	RES		4465444		MORUMBI		SP
-ROBERVAL	COM		4353654		CENTRO		MG
-JOANETE		CEL		2369556		CENTRO		SP
-AMANDA		CEL		6889889		FLAMENGO	RJ
-AMANDA		RES		4324004		FLAMENGO	RJ
-AMANDA		COM		4345354		FLAMENGO	RJ
-ADRIANO		CEL		2444556		MORUMBI		SP
-RAFAEL		CEL		7895589		CENTRO		MG
-JHONATA		RES		8825444		CENTRO		SP
-JHONATA		COM		4354454		CENTRO		SP
-JHONATA		CEL		2311556		CENTRO		SP
+NOME                           TIPO NUMERO     BAIRRO                         UF
+------------------------------ ---- ---------- ------------------------------ ----
+ANDRE                          CEL  7897889    FLAMENGO                       RJ
+ANDRE                          RES  4385444    FLAMENGO                       RJ
+ANA                            COM  4353754    MORUMBI                        SP
+ANA                            CEL  7544556    MORUMBI                        SP
+JOAO                           RES  4325014    CENTRO                         SP
+ANDREIA                        COM  4344354    FLAMENGO                       RJ
+ANDREIA                        CEL  2344676    FLAMENGO                       RJ
+ANAKARLA                       CEL  7899909    MORUMBI                        SP
+ANAKARLA                       RES  4465444    MORUMBI                        SP
+AMANDA                         CEL  6889889    FLAMENGO                       RJ
+AMANDA                         RES  4324004    FLAMENGO                       RJ
+AMANDA                         COM  4345354    FLAMENGO                       RJ
+ADRIANO                        CEL  2444556    MORUMBI                        SP
+JHONATA                        RES  8825444    CENTRO                         SP
+JHONATA                        COM  4354454    CENTRO                         SP
+JHONATA                        CEL  2311556    CENTRO      
 */

@@ -18,3 +18,20 @@ GO
 
 SELECT * FROM ALUNO 
 GO 
+
+/*
+IDALUNO     NOME                           SEXO NASCIMENTO EMAIL
+----------- ------------------------------ ---- ---------- ------------------------------
+1           ANDRE                          M    1981-12-09 ANDRE@IG.COM
+2           ANA                            F    1978-03-09 ANA@IG.COM
+3           RUI                            M    1951-07-09 RUI@IG.COM
+4           JOAO                           M    2002-11-09 JOAO@IG.COM
+5           ANDREIA                        F    1985-12-09 ANDREIA@IG.COM
+6           ANAKARLA                       F    1979-03-09 ANAKARLA@IG.COM
+7           ROBERVAL                       M    1981-07-09 ROBERVAL@IG.COM
+8           JOANETE                        F    2001-10-09 JOANETE@IG.COM
+9           AMANDA                         F    1981-12-09 AMANDA@IG.COM
+10          ADRIANO                        M    1976-03-09 ADRIANO@IG.COM
+11          RAFAEL                         M    1991-07-09 RAFAEL@IG.COM
+12          JHONATA                        M    2000-11-09 JHONATA@IG.COM
+*/

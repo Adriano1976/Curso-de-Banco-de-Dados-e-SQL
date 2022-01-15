@@ -18,3 +18,17 @@ GO
 
 SELECT * FROM ENDERECO
 GO 
+
+/*
+IDENDERECO  BAIRRO                         UF   ID_ALUNO
+----------- ------------------------------ ---- -----------
+100         FLAMENGO                       RJ   1
+110         MORUMBI                        SP   2
+130         CENTRO                         SP   4
+140         FLAMENGO                       RJ   5
+150         MORUMBI                        SP   6
+170         CENTRO                         SP   8
+180         FLAMENGO                       RJ   9
+190         MORUMBI                        SP   10
+210         CENTRO                         SP   12
+*/

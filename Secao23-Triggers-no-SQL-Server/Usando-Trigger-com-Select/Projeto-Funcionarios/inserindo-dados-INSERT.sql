@@ -23,3 +23,7 @@ insert into funcionarios values ('Chapman','jchapmanm@archive.org','Feminino','J
 insert into funcionarios values ('Kelly','ekellyn@weibo.com','Masculino','Jardim','2006/06/29',144965,'Nurse Practicioner',NULL)
 insert into funcionarios values ('Stephens','jstephenso@ow.ly','Masculino','Brinquedos','2004/06/04',70613,'Business Systems Development Analyst',NULL)
 GO 
+
+
+insert into salario_range values (3000.00,6000.00)
+GO

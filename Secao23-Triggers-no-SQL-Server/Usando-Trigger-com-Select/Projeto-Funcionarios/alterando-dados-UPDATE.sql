@@ -88,3 +88,29 @@ IDHIST      IDFUNC      NOME                    DEPARTAMENTO                    
 
 (46 linha(s) afetadas)
 */
+
+
+UPDATE FUNCIONARIOS SET SALARIO = 9000.00
+WHERE IDFUNC = 1
+GO
+
+/*
+(1 linha(s) afetadas)
+Mensagem 50000, Nível 16, Estado 1, Procedimento TGR_RANGE, Linha 66
+SALARIO MAIOR QUE O TETO
+Mensagem 3609, Nível 16, Estado 1, Linha 44
+A transação foi encerrada no gatilho. O lote foi anulado.
+*/
+
+
+UPDATE FUNCIONARIOS SET SALARIO = 1000.00
+WHERE IDFUNC = 1
+GO  
+
+/*
+(1 linha(s) afetadas)
+Mensagem 50000, Nível 16, Estado 1, Procedimento TGR_RANGE, Linha 64
+SALARIO MENOR QUE O PISO
+Mensagem 3609, Nível 16, Estado 1, Linha 48
+A transação foi encerrada no gatilho. O lote foi anulado.
+*/

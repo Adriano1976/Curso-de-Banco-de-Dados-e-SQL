@@ -31,3 +31,15 @@ IDFUNC      NOME                  EMAIL                                 SEXO    
 (23 linha(s) afetadas)
 
 */
+
+
+SELECT * FROM SALARIO_RANGE
+GO  
+
+/*
+MINSAL                MAXSAL
+--------------------- ---------------------
+3000,00               6000,00
+
+(1 linha(s) afetadas)
+*/

@@ -112,3 +112,44 @@ Nenhuma exibição com tabela de referência de associação a esquema 'HIST_SAL
 
 */
 
+
+SP_HELP SALARIO_RANGE
+GO  
+
+/*
+Name                                                                                                                             Owner                                                                                                                            Type                            Created_datetime
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ------------------------------- -----------------------
+SALARIO_RANGE                                                                                                                    dbo                                                                                                                              user table                      2022-01-17 17:32:10.937
+
+ 
+ 
+Column_name                                                                                                                      Type                                                                                                                             Computed                            Length      Prec  Scale Nullable                            TrimTrailingBlanks                  FixedLenNullInSource                Collation
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- ----------------------------------- ----------- ----- ----- ----------------------------------- ----------------------------------- ----------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+MINSAL                                                                                                                           money                                                                                                                            no                                  8           19    4     yes                                 (n/a)                               (n/a)                               NULL
+MAXSAL                                                                                                                           money                                                                                                                            no                                  8           19    4     yes                                 (n/a)                               (n/a)                               NULL
+
+ 
+Identity                                                                                                                         Seed                                    Increment                               Not For Replication
+-------------------------------------------------------------------------------------------------------------------------------- --------------------------------------- --------------------------------------- -------------------
+No identity column defined.                                                                                                      NULL                                    NULL                                    NULL
+
+ 
+RowGuidCol
+--------------------------------------------------------------------------------------------------------------------------------
+No rowguidcol column defined.
+
+ 
+Data_located_on_filegroup
+--------------------------------------------------------------------------------------------------------------------------------
+GA_GERAL
+
+ 
+O objeto 'SALARIO_RANGE' não tem nenhum índice, ou você não tem permissões.
+ 
+Nenhuma restrição foi definida no objeto 'SALARIO_RANGE', ou você não tem permissões.
+ 
+Nenhuma chave estrangeira faz referência à tabela 'SALARIO_RANGE', ou você não tem permissões em tabelas de referência.
+Nenhuma exibição com tabela de referência de associação a esquema 'SALARIO_RANGE'.
+
+*/
+

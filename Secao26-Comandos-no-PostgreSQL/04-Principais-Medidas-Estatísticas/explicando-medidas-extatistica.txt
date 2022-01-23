@@ -1,0 +1,14 @@
+- MÉDIA: o número "médio"; é encontrado somando-se todos os dados e dividindo pelo número de dados.
+
+- MEDIANA: o número do centro é encontrado ordenando-se todos os dados e escolhendo o que está no centro (ou, se houver dois números no centro, calculando-se a média desses dois números).
+
+- MODA: o número mais frequente — ou seja, o número que aparece o maior número de vezes. 
+
+- AMPLITUDE: é a diferença entre o maior elemento desse conjunto e o menor. Em outras palavras, para encontrar a amplitude de uma lista de números, basta subtrair o menor elemento do maior.
+
+- VARIÂNCIA: é uma medida de dispersão que mostra o quão distante cada valor desse conjunto está do valor central (médio). Quanto menor é a variância, mais próximos os valores estão da média; mas quanto maior ela é, mais os valores estão distantes da média.
+
+- DESVIO PADRÃO: consiste em uma medida do nível de dispersão, isto é, ele indica quão uniforme está um conjunto de dados. Ou seja, quanto maior o Desv. Padrão, o conjunto de dados está mais distante da média. Quanto mais próximo de 0 ele estiver, temos o desvio padrão mais homogêneo.
+
+- COEFICIENTE DE VARIAÇÃO: fornece a variação dos dados obtidos em relação à média. Quanto menor for o seu valor, mais homogêneos serão os dados. O coeficiente de variação é considerado baixo (apontando um conjunto de dados bem homogêneos) quando for menor ou igual a 25%.
+

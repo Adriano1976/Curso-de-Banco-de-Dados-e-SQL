@@ -1,18 +1,3 @@
-/*
-SE APARECER A SEGUINTE MENSAGEM AO FAZER O PROCEDIMENTO, O QUE FAZER?
-
-Não é possível carregar em massa. Código de erro do sistema operacional 5 (acesso negado).
-
-Este erro aparece quando você está usando a Autenticação do SQL Server e o SQL Server não 
-tem permissão para acessar a pasta de carregamento em massa.
-
-Então, dar acesso ao servidor SQL para a pasta resolverá o problema.
-
-Veja como: Vá para a pasta clique com o botão direito do mouse -> propriedades-> 
-guia Segurança-> Editar-> Adicionar (na nova janela) -> Avançado -> Localizar Agora. 
-Na lista de usuários nos resultados da pesquisa, encontre algo como SQLServerMSSQLUser 
-$ UserName $ SQLExpress e clique em ok para todas as caixas de diálogo abertas.
-*/
 
 BULK INSERT LANCAMENTO_CONTABIL
 FROM 'C:\Users\ADRIANO\Downloads\contas.txt'

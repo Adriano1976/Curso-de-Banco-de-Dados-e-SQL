@@ -1,0 +1,41 @@
+SE APARECER A SEGUINTE MENSAGEM AO FAZER O PROCEDIMENTO, O QUE FAZER?
+
+	Não é possível carregar em massa. Código de erro do sistema operacional 5 (acesso negado).
+
+Este erro aparece quando você está usando a Autenticação do SQL Server e o SQL Server não 
+tem permissão para acessar a pasta de carregamento em massa.
+
+Então, dar acesso ao servidor SQL para a pasta resolverá o problema.
+
+Veja como: Vá para a pasta clique com o botão direito do mouse -> propriedades-> 
+guia Segurança-> Editar-> Adicionar (na nova janela) -> Avançado -> Localizar Agora. 
+Na lista de usuários nos resultados da pesquisa, encontre algo como SQLServerMSSQLUser 
+$ UserName $ SQLExpress e clique em ok para todas as caixas de diálogo abertas.
+
+
+-----------------------------------------------------------------------------------------
+
+
+SE APARECER A SEGUINTE MENSAGEM AO FAZER O PROCEDIMENTO, O QUE FAZER?
+
+	ERROR:  could not open file "C:\Users\ADRIANO\Downloads\LogMaquinas.csv" for reading: Permission denied
+	HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+	SQL state: 42501
+
+
+
+1ª - Vá para Propriedades desse arquivo em particular clicando com o botão direito nele. 
+
+2ª - Em seguida, vá para a guia Segurança da caixa de diálogo Propriedades exibida. 
+
+3ª - Clique na opção Editar . 
+
+4ª - A caixa de diálogo Permissões é exibida e, em seguida, clique no botão Adicionar . 
+
+5ª - Digite ' Todos ' (sem apóstrofos) na caixa de descrição "Digite os nomes dos objetos a serem selecionados" e clique no botão OK . 
+
+6ª - Em seguida, certifique-se de que todas as caixas de seleção de "Permissões para todos" estejam marcadas. 
+
+7ª - Apenas marcando a caixa de seleção "Controle total" para permitir o acesso de controle sem qualquer restrição. 
+
+8ª - Em seguida, aplique OK todas as guias para aplicar todas as alterações feitas

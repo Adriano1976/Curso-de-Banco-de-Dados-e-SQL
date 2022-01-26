@@ -100,3 +100,28 @@ select departamento, sum(salario) as "Folha Salarial", avg(salario) as "Media Sa
 from funcionarios
 group by departamento
 order by 2 desc;
+
+
+-- Qual a moda dos salarios? A moda dos salarios diz algo de relevante?
+-- Qual a moda departamental? Qual o departamento que mais emprega?
+-- Qual o desvio padrao de cada departamento?
+-- Qual a mediana salarial de todo o set de dados?
+-- Qual a amplitude de todos so salarios;
+-- Quais as principais medidas estatisticas por departamento?
+-- Qual departamento te da uma maior brobabilidade de ganhar mais?
+
+select departamento,
+count(*) as "Moda departamental",
+round(avg(salario),2) as "Media Salarial",
+max(salario) as "Maxima Salarial",
+min(salario) as "Minimo Salarial",
+max(salario) - min(salario) as "Amplitude Total",
+round(var_pop(salario),2) as "Variancia",
+percentile_cont(0.5) within group(order by salario),
+round(stddev_pop(salario),2) as "Desvio Padrao",
+round(stddev_pop(salario) / avg(salario)) * 100.2 as "Coeficiente Variacao",
+from funcionarios
+group by departamento
+order by 2 desc
+limit 20;
+

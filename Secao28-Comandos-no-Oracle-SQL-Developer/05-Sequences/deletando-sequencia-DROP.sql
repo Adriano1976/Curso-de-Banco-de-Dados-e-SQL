@@ -1,0 +1,7 @@
+
+-- APAGANDO SEQUENCIA DE DADOS
+
+
+DROP SEQUENCE SEQ_GERAL;
+
+/* Sequence SEQ_GERAL eliminado. */

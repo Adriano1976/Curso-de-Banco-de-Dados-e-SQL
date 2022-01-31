@@ -1,0 +1,29 @@
+
+Erro a partir da linha : 19 no comando -
+INSERT INTO ALUNO VALUES(SEQ_EXEMPLO.NEXTVAL, 'Mariana Santos','mariana@gmail',2500,00)
+Erro na Linha de Comandos : 19 Coluna : 13
+Relatório de erros -
+Erro de SQL: ORA-00913: valores demais
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+
+
+Erro a partir da linha : 22 no comando -
+INSERT INTO ALUNO VALUES(SEQ_EXEMPLO.NEXTVAL, 'Neide Ferreira','neidefferreira@hotmail.com',4050,00)
+Erro na Linha de Comandos : 22 Coluna : 13
+Relatório de erros -
+Erro de SQL: ORA-00913: valores demais
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+
+
+Erro a partir da linha : 19 no comando -
+INSERT INTO ALUNO VALUES(SEQ_EXEMPLO.NEXTVAL, 'Mariana Santos','mariana@gmail.com',2500.
+Erro na Linha de Comandos : 19 Coluna : 88
+Relatório de erros -
+Erro de SQL: ORA-00917: vírgula não encontrada
+00917. 00000 -  "missing comma"
+*Cause:    
+*Action:

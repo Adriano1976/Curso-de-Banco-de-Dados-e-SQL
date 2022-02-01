@@ -25,3 +25,14 @@ create table funcionario(
 /*
 Table FUNCIONARIO criado.
 */
+
+
+create table telefone(
+  idtelefone int primary key,
+  tipo char(3),
+  numero varchar2(10),
+  id_funcionario int  
+);
+
+alter table telefone add constraint fk_funcionario_telefone
+foreign key (id_funcionario) references funcionario;

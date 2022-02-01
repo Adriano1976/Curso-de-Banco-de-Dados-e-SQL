@@ -46,3 +46,37 @@ insert into funcionario values (36,'Bradley','nbradleyz@goodreads.com','Masculin
 insert into funcionario values (37,'Cruz','rcruz10@blinklist.com','Feminino','Lar',61739,'Quality Engineer',1);
 insert into funcionario values (38,'Williamson','dwilliamson11@rediff.com','Feminino','Jardim',82026,'Nurse',2);
 insert into funcionario values (39,'Kennedy','skennedy12@rediff.com','Masculino','Bebês',79339,'Civil Engineer',1);
+
+
+insert into telefone values(1,'cel','7958472514',1);
+insert into telefone values(2,'cel','7958295514',2);
+insert into telefone values(3,'cel','7945472514',3);
+insert into telefone values(4,'cel','7958477534',4);
+insert into telefone values(5,'cel','7958474584',5);
+insert into telefone values(6,'cel','7958475814',6);
+insert into telefone values(7,'cel','7952672514',7);
+insert into telefone values(8,'cel','7958474584',8);
+insert into telefone values(9,'cel','7958472222',9);
+insert into telefone values(10,'cel','7958422214',10);
+insert into telefone values(11,'cel','7978572514',11);
+insert into telefone values(12,'cel','7958445814',12);
+insert into telefone values(13,'cel','7932172514',13);
+insert into telefone values(14,'cel','7958445814',14);
+insert into telefone values(15,'cel','7952362514',15);
+insert into telefone values(16,'cel','7958002514',16);
+insert into telefone values(17,'cel','7958470004',17);
+insert into telefone values(18,'cel','7953212514',18);
+insert into telefone values(19,'cel','7958369514',19);
+insert into telefone values(20,'cel','7958474564',20);
+insert into telefone values(21,'cel','7958472514',21);
+insert into telefone values(22,'cel','7957532514',22);
+insert into telefone values(23,'cel','7958474584',23);
+insert into telefone values(24,'cel','7958478914',24);
+insert into telefone values(25,'cel','7958478914',25);
+insert into telefone values(26,'cel','7958478914',26);
+insert into telefone values(27,'cel','7958478914',27);
+insert into telefone values(28,'cel','7958478914',28);
+insert into telefone values(29,'cel','7958478914',29);
+insert into telefone values(30,'cel','7958478914',30);
+insert into telefone values(31,'cel','7958478914',35);
+

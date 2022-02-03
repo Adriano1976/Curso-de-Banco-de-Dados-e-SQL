@@ -1,0 +1,48 @@
+Motores de armazenamento
+
+InnoDB é um mecanismo de armazenamento para o MySQL.[1] O MySQL 5.5, e versões posteriores, o utilizam por padrão. Ele fornece as funcionalidades padrões de transação complacentes com ACID, juntamente com o suporte a chave estrangeira (Integridade Referencial Declarativa). Ele é incluso como padrão na maioria dos binários distribuídos pela MySQL AB, sendo a exceção algumas versões OEM.
+
+Outra grande diferença entre SQL e MySQL que às vezes passa batida é a maneira como eles armazenam dados. O SQL Server usa um único motor de armazenamento desenvolvido pela Microsoft, em contraste com os múltiplos motores de armazenamento do MySQL.
+
+Qual é melhor MyISAM ou InnoDB? InnoDB pode ser usado para bloqueio de nível de linha, o que significa que oferece maior desempenho em comparação com MyISAM. O InnoDB pode ser usado para dados e índices para um grande pool de buffer. InnoDB pode ser usado quando precisamos de melhor desempenho do que MyISAM.
+
+Por que InnoDB é mais lento que MyISAM? Por causa do BLOB estar embutido, MyISAM tem problemas de fragmentação se você atualizar os registros na tabela; InnoDB tem muito menos fragmentação. Isso afeta todas as operações, tornando o InnoDB o vencedor novamente. A ordem das colunas em CREATE TABLE não tem impacto no desempenho em nenhum dos motores.
+
+O que é MyISAM e InnoDB? InnoDB e MYISAM são mecanismos de armazenamento para MySQL. Esses dois diferem em sua implementação de bloqueio: InnoDB bloqueia uma linha específica na tabela e MyISAM bloqueia toda a tabela MySQL. Você pode especificar o tipo fornecendo MYISAM OU InnoDB ao criar uma tabela no DB.
+
+Qual mecanismo de armazenamento é melhor no MySQL? 
+No que eles são bons? 
+* InnoDB: a opção padrão no MySQL 5.7, InnoDB é um mecanismo de armazenamento robusto que oferece: 
+* MyISAM: A funcionalidade que diferencia o MyISAM é sua capacidade para:
+* NDB (ou NDBCLUSTER): Se um ambiente em cluster é onde seu banco de dados funcionará, NDB é o mecanismo de armazenamento de escolha.
+
+O InnoDB é mais rápido que o MyISAM? Em um mundo simples, MyISAM é mais rápido para leituras, InnoDB é mais rápido para escritas. Assim que você começar a introduzir leituras / escritas mistas, o InnoDB será mais rápido para leituras também, graças ao seu mecanismo de bloqueio de linha.
+
+Posso converter MyISAM para InnoDB? Converta MyISAM em InnoDB com phpMyAdmin
+
+Você pode converter MyISAM em InnoDB com bastante facilidade. Este exemplo a seguir está usando a tabela wp_comments. Simplesmente execute o comando ALTER para convertê-lo em mecanismo de armazenamento InnoDB. ... Basta clicar na tabela myISAM, clicar na guia “Operações” e alterar o mecanismo de armazenamento.
+
+O que InnoDB representa? InnoDB é um mecanismo de armazenamento de uso geral que equilibra alta confiabilidade e alto desempenho. No MySQL 5.6, InnoDB é o mecanismo de armazenamento padrão do MySQL. A menos que você tenha configurado um mecanismo de armazenamento padrão diferente, emitir uma instrução CREATE TABLE sem uma cláusula ENGINE cria uma tabela InnoDB.
+
+Como posso saber se meu banco de dados é InnoDB ou MyISAM? 
+
+Selecione o banco de dados para o seu site WP.
+Clique na guia SQL.
+Digite: SELECT CONCAT ('ALTER TABLE', TABLE_SCHEMA, '.', TABLE_NAME, 'ENGINE = MyISAM;') FROM Information_schema.TABLES WHERE TABLE_SCHEMA = 'DBNAME' AND ENGINE = 'InnoDB' AND TABLE_TYPE = 'BASE TABLE'
+Clique GO.
+
+MariaDB usa InnoDB? InnoDB é um bom mecanismo de armazenamento de transações gerais e, a partir do MariaDB 10.2, a melhor escolha na maioria dos casos. É o mecanismo de armazenamento padrão do MariaDB 10.2. Para versões anteriores, o XtraDB era um fork do InnoDB com desempenho aprimorado e geralmente é o preferido. ... MyISAM é o mecanismo de armazenamento mais antigo do MySQL.
+
+Como eu mudo de InnoDB para MyISAM?
+
+Converter de INNODB para MYISAM
+* Faça backup do banco de dados Mysql.
+* Execute esta consulta sql via terminal ou no phpmyadmin para o banco de dados que você deseja converter para MYISAM.
+
+Como eu mudo para InnoDB? Acesse phpMyAdmin e selecione seu banco de dados. Em seguida, clique em SQL, coloque a seguinte consulta e clique em Go: ALTER TABLE my_table ENGINE = InnoDB; Se a consulta for executada corretamente, o mecanismo de banco de dados da tabela será alterado para InnoDB.
+
+Qual consulta cria uma tabela no mecanismo de armazenamento MyISAM? CRIAR TABELA t (i INT) MOTOR = MYISAM; No MySQL 8.0, normalmente é necessário usar ENGINE para especificar o mecanismo de armazenamento MyISAM porque InnoDB é o mecanismo padrão. Você pode verificar ou reparar tabelas MyISAM com o cliente mysqlcheck ou utilitário myisamchk.
+
+Isso dá aos desenvolvedores do MySQL muito mais flexibilidade, pois eles podem usar diferentes motores para cada tabela, com base em velocidade, confiabilidade e outras dimensões. Um motor de armazenamento popular do MySQL é o InnoDB, um dos mais confiáveis existentes, ainda que também seja um dos mais lentos. Outro exemplo de motor de armazenamento do MySQL é o MyISAM.
+
+Portanto, O mecanismo de armazenamento InnoDB oferece suporte a transações e seu objetivo de design é principalmente para aplicativos de processamento de transações online (OLTP). Suas características são o design de travamento de linha, suporte para chaves estrangeiras e suporte de leitura sem travamento semelhante ao Oracle, ou seja, a operação de leitura padrão não gera travamentos. E O mecanismo de armazenamento MyISAM não suporta transações e design de bloqueio de tabela, e suporta a indexação de texto completo . É principalmente para algumas aplicações de banco de dados OLAP. Antes do MySQL 5.5.8, o mecanismo de armazenamento MyISAM era o mecanismo de armazenamento padrão (exceto para a versão Windows). Uma grande diferença entre um sistema de banco de dados e um sistema de arquivos é o suporte para transações, mas o mecanismo de armazenamento MyISAM não oferece suporte para transações. 

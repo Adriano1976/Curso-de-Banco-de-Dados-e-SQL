@@ -1,0 +1,58 @@
+id_empresa,titulo,nome,sigla,url,sede,setor,industria,num_funcionarios,receitas,lucros,ativos,capital_proprio
+4,"Exxon Mobil","Exxon Mobil Corporation",XOM,http://www.exxonmobil.com,"Irving, TX",Energia,"Refinamento de petróleo",72700,205004,7840,330314,167325
+19,Chevron,"Chevron Corporation",CVX,http://www.chevron.com,"San Ramon, CA",Energia,"Refinamento de petróleo",55200,107567,-497,260078,145556
+34,"Phillips 66","Phillips 66",PSX,http://www.phillips66.com,"Houston, TX",Energia,"Refinamento de petróleo",14800,72396,1555,51653,22390
+37,"Valero Energy","Valero Energy Corporation",VLO,http://www.valero.com,"San Antonio, TX",Energia,"Refinamento de petróleo",9996,70166,2289,46173,20024
+51,"Marathon Petroleum","Marathon Petroleum Corporation",MPC,http://www.marathonpetroleum.com,"Findlay, OH",Energia,"Refinamento de petróleo",44460,55858,1174,44413,13557
+79,"Energy Transfer Equity","Energy Transfer Equity, L.P.",ETE,http://www.energytransfer.com,"Dallas, TX",Energia,Pipelines.,30992,37504,995,79011,-1694
+89,Exelon,"Exelon Corporation",EXC,http://www.exeloncorp.com,"Chicago, IL",Energia,"Utilitários: gás e elétrico",34396,31360,1134,114904,25837
+103,"World Fuel Services","World Fuel Services Corporation",INT,http://www.wfscorp.com,"Miami, FL",Energia,Energia,5000,27016,127,5413,1925
+115,ConocoPhillips,ConocoPhillips,COP,http://www.conocophillips.com,"Houston, TX",Energia,"Mineração, produção de petróleo bruto",13300,24360,-3615,89772,34974
+117,Tesoro,"Tesoro Corporation",TSO,http://www.tsocorp.com,"San Antonio, TX",Energia,"Refinamento de petróleo",6308,24005,734,20398,5465
+121,"Duke Energy","Duke Energy Corporation",DUK,http://www.duke-energy.com,"Charlotte, NC",Energia,"Utilitários: gás e elétrico",28798,23369,2152,132761,41033
+122,"Enterprise Products Partners","Enterprise Products Partners L.P.",EPD,http://www.enterpriseproducts.com,"Houston, TX",Energia,Pipelines.,6800,23022,2513,52194,22047
+141,"Plains GP Holdings","Plains GP Holdings, L.P.",PAGP,http://www.plainsallamerican.com,"Houston, TX",Energia,"N / D",5100,20182,94,26103,1737
+145,Southern,"The Southern Company",SO,http://www.southerncompany.com,"Atlanta, GA",Energia,"Utilitários: gás e elétrico",32015,19896,2448,109697,24758
+157,"PG&E Corp.","PG&E Corporation",PCG,http://www.pgecorp.com,"San Francisco, CA",Energia,"Utilitários: gás e elétrico",24000,17666,1393,68598,17940
+167,"American Electric Power","American Electric Power Company, Inc.",AEP,http://www.aep.com,"Columbus, OH",Energia,"Utilitários: gás e elétrico",17634,16380,611,63468,17397
+170,"NextEra Energy","NextEra Energy, Inc.",NEE,http://www.nexteraenergy.com,"Juno Beach, FL",Energia,"Utilitários: gás e elétrico",14700,16155,2912,89993,24341
+172,"PBF Energy","PBF Energy Inc.",PBF,http://www.pbfenergy.com,"Parsippany, NJ",Energia,"Refinamento de petróleo",3165,15920,171,7622,2025
+173,Halliburton,"Halliburton Company",HAL,http://www.halliburton.com,"Houston, TX",Energia,"Equipamento de petróleo e gás, serviços",50000,15887,-5763,27000,9409
+175,Freeport-McMoRan,"Freeport-McMoRan Inc.",FCX,http://www.fcx.com,"Phoenix, AZ",Energia,"Mineração, produção de petróleo bruto",30000,15789,-4154,37317,6051
+194,AES,"The AES Corporation",AES,http://www.aes.com,"Arlington, VA",Energia,"Utilitários: gás e elétrico",19000,14287,-1130,36119,2794
+196,FirstEnergy,"FirstEnergy Corp.",FE,http://www.firstenergycorp.com,"Akron, OH",Energia,"Utilitários: gás e elétrico",15707,14156,-6177,43148,6241
+215,"Kinder Morgan","Kinder Morgan, Inc.",KMI,http://www.kindermorgan.com,"Houston, TX",Energia,Pipelines.,11121,13058,708,80305,34431
+229,"NRG Energy","NRG Energy, Inc.",NRG,http://www.nrg.com,"Princeton, NJ",Energia,Energia,8763,12351,-774,30355,2041
+231,"Devon Energy","Devon Energy Corporation",DVN,http://www.devonenergy.com,"Oklahoma City, OK",Energia,"Mineração, produção de petróleo bruto",3545,12197,-3302,25913,5927
+234,"Consolidated Edison","Consolidated Edison, Inc.",ED,http://www.conedison.com,"New York, NY",Energia,"Utilitários: gás e elétrico",14960,12075,1245,48255,14298
+235,"Edison International","Edison International",EIX,http://www.edisoninvestor.com,"Rosemead, CA",Energia,"Utilitários: gás e elétrico",12390,11869,1311,51319,11996
+237,"NGL Energy Partners","NGL Energy Partners LP",NGL,http://www.nglenergypartners.com,"Tulsa, OK",Energia,Energia,3200,11742,-199,5560,1656
+238,"Dominion Energy","Dominion Energy, Inc.",D,http://www.dominionenergy.com,"Richmond, VA",Energia,"Utilitários: gás e elétrico",16200,11737,2123,71610,14605
+256,"Xcel Energy","Xcel Energy Inc.",XEL,http://www.xcelenergy.com,"Minneapolis, MN",Energia,"Utilitários: gás e elétrico",11476,11107,1123,41155,11021
+263,Entergy,"Entergy Corporation",ETR,http://www.entergy.com,"New Orleans, LA",Energia,"Utilitários: gás e elétrico",13513,10846,-584,45904,8082
+272,"DTE Energy","DTE Energy Company",DTE,http://www.dteenergy.com,"Detroit, MI",Energia,"Utilitários: gás e elétrico",10000,10630,868,32041,9011
+274,HollyFrontier,"HollyFrontier Corporation",HFC,http://www.hollyfrontier.com,"Dallas, TX",Energia,"Refinamento de petróleo",2676,10536,-261,9436,4681
+278,"Occidental Petroleum","Occidental Petroleum Corporation",OXY,http://www.oxy.com,"Houston, TX",Energia,"N / D",11000,10398,-574,43109,21497
+280,"Sempra Energy","Sempra Energy",SRE,http://www.sempra.com,"San Diego, CA",Energia,"Utilitários: gás e elétrico",16575,10183,1370,47786,12951
+285,"Baker Hughes","Baker Hughes Incorporated",BHI,http://www.bakerhughes.com,"Houston, TX",Energia,"Equipamento de petróleo e gás, serviços",33000,9841,-2738,19034,12656
+308,"Public Service Enterprise Group","Public Service Enterprise Group Incorporated",PEG,http://www.pseg.com,"Newark, NJ",Energia,"Utilitários: gás e elétrico",13065,9061,887,40070,13130
+312,Oneok,"ONEOK, Inc.",OKE,http://www.oneok.com,"Tulsa, OK",Energia,"N / D",2384,8921,352,16139,189
+328,"Newmont Mining","Newmont Mining Corporation",NEM,http://www.newmont.com,"Greenwood Village, CO",Energia,"Mineração, produção de petróleo bruto",12438,8379,-627,21031,10721
+343,"Chesapeake Energy","Chesapeake Energy Corporation",CHK,http://www.chk.com,"Oklahoma City, OK",Energia,"Mineração, produção de petróleo bruto",3300,7872,-4401,13028,-1460
+344,"Anadarko Petroleum","Anadarko Petroleum Corporation",APC,http://www.anadarko.com,"The Woodlands, TX",Energia,"Mineração, produção de petróleo bruto",4500,7869,-3071,45564,12212
+349,"Western Refining","Western Refining, Inc.",NA,http://www.wnr.com,"El Paso, TX",Energia,"Refinamento de petróleo",7134,7743,125,5560,1697
+356,"EOG Resources","EOG Resources, Inc.",EOG,http://www.eogresources.com,"Houston, TX",Energia,"Mineração, produção de petróleo bruto",2650,7651,-1097,29459,13982
+358,"Eversource Energy","Eversource Energy",ES,http://www.eversource.com,"Springfield, MA",Energia,"Utilitários: gás e elétrico",7762,7639,942,32053,10712
+362,"CenterPoint Energy","CenterPoint Energy, Inc.",CNP,http://www.centerpointenergy.com,"Houston, TX",Energia,"Utilitários: gás e elétrico",7727,7528,432,21829,3460
+365,PPL,"PPL Corporation",PPL,http://www.pplweb.com,"Allentown, PA",Energia,"Utilitários: gás e elétrico",12689,7517,1902,38315,9899
+367,Williams,"The Williams Companies, Inc.",WMB,http://www.williams.com,"Tulsa, OK",Energia,Energia,5604,7499,-424,46835,4643
+368,"WEC Energy Group","WEC Energy Group, Inc.",WEC,http://www.wecenergygroup.com,"Milwaukee, WI",Energia,"Utilitários: gás e elétrico",8074,7472,939,30123,8930
+375,"National Oilwell Varco","National Oilwell Varco, Inc.",NOV,http://www.nov.com,"Houston, TX",Energia,"Equipamento de petróleo e gás, serviços",36384,7251,-2412,21140,13940
+400,Calpine,"Calpine Corporation",CPN,http://www.calpine.com,"Houston, TX",Energia,Energia,2372,6716,92,19317,3268
+402,"Targa Resources","Targa Resources Corp.",TRGP,http://www.targaresources.com,"Houston, TX",Energia,Pipelines.,1970,6691,-187,12871,5439
+419,"CMS Energy","CMS Energy Corporation",CMS,http://www.cmsenergy.com,"Jackson, MI",Energia,"Utilitários: gás e elétrico",7750,6399,551,21622,4253
+431,Ameren,"Ameren Corporation",AEE,http://www.ameren.com,"St. Louis, MO",Energia,"Utilitários: gás e elétrico",8629,6076,653,24699,7103
+457,UGI,"UGI Corporation",UGI,http://www.ugicorp.com,"King of Prussia, PA",Energia,Energia,13105,5686,365,10847,2851
+480,"Delek US Holdings","Delek US Holdings, Inc.",DK,http://www.delekus.com,"Brentwood, TN",Energia,"Refinamento de petróleo",1326,5414,-154,2985,992
+488,Apache,"Apache Corporation",APA,http://www.apachecorp.com,"Houston, TX",Energia,"Mineração, produção de petróleo bruto",3727,5354,-1405,22519,6238
+499,"Vistra Energy","Vistra Energy Corp.",VST,http://www.vistraenergy.com,"Dallas, TX",Energia,Energia,4431,5164,0,15167,6597

@@ -1,0 +1,44 @@
+id_empresa,titulo,nome,sigla,url,sede,setor,industria,num_funcionarios,receitas,lucros,ativos,capital_proprio
+3,Apple,"Apple, Inc.",AAPL,http://www.apple.com,"Cupertino, CA",Tecnologia,"Computadores, equipamento de escritório",116000,215639,45687,321686,128249
+12,Amazon.com,"Amazon.com, Inc.",AMZN,http://www.amazon.com,"Seattle, WA",Tecnologia,"Serviços de Internet e varejo",341400,135987,2371,83402,19285
+27,Alphabet,"Alphabet Inc.",GOOGL,http://www.abc.xyz,"Mountain View, CA",Tecnologia,"Serviços de Internet e varejo",72053,90272,19478,167497,139036
+28,Microsoft,"Microsoft Corporation",MSFT,http://www.microsoft.com,"Redmond, WA",Tecnologia,"Software de computador",114000,85320,16798,193694,71997
+32,IBM,"International Business Machines Corporation",IBM,http://www.ibm.com,"Armonk, NY",Tecnologia,"Serviços de Tecnologia da Informação",414400,79919,11872,117470,18246
+41,"Dell Technologies","Dell Technologies Inc.",NA,http://www.delltechnologies.com,"Round Rock, TX",Tecnologia,"Computadores, equipamento de escritório",138000,64806,-1672,118206,13243
+47,Intel,"Intel Corporation",INTC,http://www.intel.com,"Santa Clara, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",106000,59387,10316,113327,66226
+59,"Hewlett Packard Enterprise","Hewlett Packard Enterprise Company",HPE,http://www.hpe.com,"Palo Alto, CA",Tecnologia,"Serviços de Tecnologia da Informação",195000,50123,3161,79679,31448
+60,"Cisco Systems","Cisco Systems, Inc.",CSCO,http://www.cisco.com,"San Jose, CA",Tecnologia,"Rede e outros equipamentos de comunicação",73700,49247,10739,121652,63586
+61,HP,"HP Inc.",HPQ,http://www.hp.com,"Palo Alto, CA",Tecnologia,"Computadores, equipamento de escritório",49000,48238,2496,29010,-3889
+81,Oracle,"Oracle Corporation",ORCL,http://www.oracle.com,"Redwood City, CA",Tecnologia,"Software de computador",136000,37047,8901,112180,47289
+98,Facebook,"Facebook, Inc.",FB,http://www.facebook.com,"Menlo Park, CA",Tecnologia,"Serviços de Internet e varejo",17048,27638,10217,64961,59194
+119,Qualcomm,"Qualcomm Incorporated",QCOM,http://www.qualcomm.com,"San Diego, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",30500,23554,5705,52359,31778
+144,Danaher,"Danaher Corporation",DHR,http://www.danaher.com,"Washington, DC",Tecnologia,"Equipamento científico, fotográfico e de controle",62000,19912,2554,45295,23003
+152,"Jabil Circuit","Jabil Circuit, Inc.",JBL,http://www.jabil.com,"St. Petersburg, FL",Tecnologia,"Semicondutores e outros componentes eletrônicos",138000,18353,254,10323,2438
+154,"Thermo Fisher Scientific","Thermo Fisher Scientific Inc.",TMO,http://www.thermofisher.com,"Waltham, MA",Tecnologia,"Equipamento científico, fotográfico e de controle",54800,18274,2022,45908,21539
+162,Xerox,"Xerox Corporation",XRX,http://www.xerox.com,"Norwalk, CT",Tecnologia,"Periféricos de computador.",133600,17126,-477,18145,4803
+199,CDW,"CDW Corporation",CDW,http://www.cdw.com,"Lincolnshire, IL",Tecnologia,"Serviços de Tecnologia da Informação",8516,13982,424,6948,1046
+205,"Cognizant Technology Solutions","Cognizant Technology Solutions Corporation",CTSH,http://www.cognizant.com,"Teaneck, NJ",Tecnologia,"Serviços de Tecnologia da Informação",260200,13487,1553,14262,10728
+206,"Texas Instruments","Texas Instruments Incorporated",TXN,http://www.ti.com,"Dallas, TX",Tecnologia,"Semicondutores e outros componentes eletrônicos",29865,13370,3595,16431,10473
+217,"Western Digital","Western Digital Corporation",WDC,http://www.westerndigital.com,"Irvine, CA",Tecnologia,"Periféricos de computador.",72878,12994,242,32862,11145
+226,"Micron Technology","Micron Technology, Inc.",MU,http://www.micron.com,"Boise, ID",Tecnologia,"Semicondutores e outros componentes eletrônicos",31400,12399,-276,27540,12080
+265,"Applied Materials","Applied Materials, Inc.",AMAT,http://www.appliedmaterials.com,"Santa Clara, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",16150,10825,1721,14588,7217
+268,"Priceline Group","The Priceline Group Inc.",PCLN,http://www.pricelinegroup.com,"Norwalk, CT",Tecnologia,"Serviços de Internet e varejo",18500,10743,2135,19839,9820
+310,eBay,"eBay Inc.",EBAY,http://www.ebay.com,"San Jose, CA",Tecnologia,"Serviços de Internet e varejo",12600,8979,7266,23847,10539
+314,Netflix,"Netflix, Inc.",NFLX,http://www.netflix.com,"Los Gatos, CA",Tecnologia,"Serviços de Internet e varejo",3850,8831,187,13587,2680
+317,Expedia,"Expedia, Inc.",EXPE,http://www.expediainc.com,"Bellevue, WA",Tecnologia,"Serviços de Internet e varejo",20075,8774,282,15778,4132
+326,salesforce.com,"salesforce.com, inc.",CRM,http://www.salesforce.com,"San Francisco, CA",Tecnologia,"Software de computador",25000,8392,180,17585,7500
+363,Harris,"Harris Corporation",HRS,http://www.harris.com,"Melbourne, FL",Tecnologia,"Rede e outros equipamentos de comunicação",21000,7527,324,11996,3056
+379,"Computer Sciences","Computer Sciences Corporation",NA,http://www.dxc.technology,"Tysons, VA",Tecnologia,"Serviços de Tecnologia da Informação",59000,7106,251,7736,2025
+381,"Leidos Holdings","Leidos Holdings, Inc.",LDOS,http://www.leidos.com,"Reston, VA",Tecnologia,"Serviços de Tecnologia da Informação",32000,7043,244,9132,3135
+387,Nvidia,"NVIDIA Corporation",NVDA,http://www.nvidia.com,"Santa Clara, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",10299,6910,1666,9841,5762
+406,"Activision Blizzard","Activision Blizzard, Inc.",ATVI,http://www.activisionblizzard.com,"Santa Monica, CA",Tecnologia,"Software de computador",9500,6608,966,17452,9119
+409,NCR,"NCR Corporation",NCR,http://www.ncr.com,"Duluth, GA",Tecnologia,"Computadores, equipamento de escritório",33500,6543,270,7673,1542
+414,Sanmina,"Sanmina Corporation",SANM,http://www.sanmina.com,"San Jose, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",40178,6481,188,3625,1610
+424,Amphenol,"Amphenol Corporation",APH,http://www.amphenol.com,"Wallingford, CT",Tecnologia,"Rede e outros equipamentos de comunicação",62000,6286,823,8499,3675
+433,"Motorola Solutions","Motorola Solutions, Inc.",MSI,http://www.motorolasolutions.com,"Chicago, IL",Tecnologia,"Rede e outros equipamentos de comunicação",14000,6038,560,8463,-964
+440,"Lam Research","Lam Research Corporation",LRCX,http://www.lamresearch.com,"Fremont, CA",Tecnologia,"Semicondutores e outros componentes eletrônicos",7500,5886,914,12272,5895
+443,"Adobe Systems","Adobe Systems Incorporated",ADBE,http://www.adobe.com,"San Jose, CA",Tecnologia,"Software de computador",15706,5854,1169,12707,7425
+465,Symantec,"Symantec Corporation",SYMC,http://www.symantec.com,"Mountain View, CA",Tecnologia,"Software de computador",11000,5568,2488,11767,3676
+468,NetApp,"NetApp, Inc.",NTAP,http://www.netapp.com,"Sunnyvale, CA",Tecnologia,"Periféricos de computador.",12030,5546,229,10037,2881
+481,"Booz Allen Hamilton Holding","Booz Allen Hamilton Holding Corp.",BAH,http://www.boozallen.com,"McLean, VA",Tecnologia,"Serviços de Tecnologia da Informação",22600,5406,294,3010,409
+498,Yahoo,"Yahoo! Inc.",YHOO,http://www.yahoo.com,"Sunnyvale, CA",Tecnologia,"Serviços de Internet e varejo",8500,5169,-214,48083,31049

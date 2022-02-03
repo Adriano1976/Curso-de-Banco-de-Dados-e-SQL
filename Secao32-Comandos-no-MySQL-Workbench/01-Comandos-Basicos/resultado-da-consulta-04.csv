@@ -1,0 +1,502 @@
+Código,"Nome da Empresa","Setor de Atuação","Receita Total"
+1,"Wal-Mart Stores, Inc.",Varejo,485873
+2,"Berkshire Hathaway Inc.",Finanças,223604
+3,"Apple, Inc.",Tecnologia,215639
+4,"Exxon Mobil Corporation",Energia,205004
+5,"McKesson Corporation",Atacadista,192487
+6,"UnitedHealth Group Incorporated","Assistência médica",184840
+7,"CVS Health Corporation","Assistência médica",177526
+8,"General Motors Company","Veículos motorizados",166380
+9,"AT&T Inc.",Telecomunicações,163786
+10,"Ford Motor Company","Veículos motorizados",151800
+11,"AmerisourceBergen Corp.",Atacadista,146850
+12,"Amazon.com, Inc.",Tecnologia,135987
+13,"General Electric Company",Industrial,126661
+14,"Verizon Communications Inc.",Telecomunicações,125980
+15,"Cardinal Health, Inc.",Atacadista,121546
+16,"Costco Wholesale Corporation",Varejo,118719
+17,"Walgreens Boots Alliance, Inc","Lojas e Drogarias",117351
+18,"The Kroger Company","Lojas e Drogarias",115337
+19,"Chevron Corporation",Energia,107567
+20,"Fannie Mae",Finanças,107162
+21,"JPMorgan Chase & Co.",Finanças,105486
+22,"Express Scripts Holding Company","Assistência médica",100288
+23,"The Home Depot, Inc.",Varejo,94595
+24,"The Boeing Company","Aeroespacial e Defesa",94571
+25,"Wells Fargo & Company",Finanças,94176
+26,"Bank of America Corporation",Finanças,93662
+27,"Alphabet Inc.",Tecnologia,90272
+28,"Microsoft Corporation",Tecnologia,85320
+29,"Anthem, Inc.","Assistência médica",84863
+30,"Citigroup Inc.",Finanças,82386
+31,"Comcast Corporation",Telecomunicações,80403
+32,"International Business Machines Corporation",Tecnologia,79919
+33,"State Farm Insurance Cos.",Finanças,76132
+34,"Phillips 66",Energia,72396
+35,"Johnson & Johnson","Assistência médica",71890
+36,"The Procter & Gamble Company","Produtos para o lar",71726
+37,"Valero Energy Corporation",Energia,70166
+38,"Target Corporation",Varejo,69495
+39,"Freddie Mac",Finanças,65665
+40,"Lowe's Companies, Inc.",Varejo,65017
+41,"Dell Technologies Inc.",Tecnologia,64806
+42,"MetLife, Inc.",Finanças,63476
+43,"Aetna Inc.","Assistência médica",63155
+44,"PepsiCo, Inc.","Alimentos, Bebidas e Tabaco",62799
+45,"Archer-Daniels-Midland Company","Alimentos, Bebidas e Tabaco",62346
+46,"United Parcel Service, Inc.",Transporte,60906
+47,"Intel Corporation",Tecnologia,59387
+48,"Prudential Financial, Inc.",Finanças,58779
+49,"Albertsons Companies, Inc.","Lojas e Drogarias",58734
+50,"United Technologies Corporation","Aeroespacial e Defesa",57244
+51,"Marathon Petroleum Corporation",Energia,55858
+52,"The Walt Disney Company",Midia,55632
+53,"Humana Inc.","Assistência médica",54379
+54,"Pfizer Inc.","Assistência médica",52824
+55,"American International Group, Inc.",Finanças,52367
+56,"Lockheed Martin Corporation","Aeroespacial e Defesa",50658
+57,"Sysco Corporation",Atacadista,50367
+58,"FedEx Corporation",Transporte,50365
+59,"Hewlett Packard Enterprise Company",Tecnologia,50123
+60,"Cisco Systems, Inc.",Tecnologia,49247
+61,"HP Inc.",Tecnologia,48238
+62,"The Dow Chemical Company","Produtos químicos",48158
+63,"HCA Holdings, Inc.","Assistência médica",44747
+64,"The Coca-Cola Company","Alimentos, Bebidas e Tabaco",41863
+65,"New York Life Insurance Company",Finanças,40787
+66,"Centene Corporation","Assistência médica",40721
+67,"American Airlines Group Inc.",Transporte,40180
+68,"Nationwide Mutual Insurance Co.",Finanças,40074
+69,"Merck & Co., Inc.","Assistência médica",39807
+70,"CIGNA Corporation","Assistência médica",39668
+71,"Delta Air Lines, Inc.",Transporte,39639
+72,"Best Buy Co., Inc.",Varejo,39403
+73,"Honeywell International Inc.",Industrial,39302
+74,"Caterpillar Inc.",Industrial,38537
+75,"Liberty Mutual Holding Company Inc.",Finanças,38308
+76,"Morgan Stanley",Finanças,37949
+77,"Massachusetts Mutual Life Insurance Company",Finanças,37788
+78,"The Goldman Sachs Group, Inc.",Finanças,37712
+79,"Energy Transfer Equity, L.P.",Energia,37504
+80,"Teachers Insurance and Annuity Association",Finanças,37105
+81,"Oracle Corporation",Tecnologia,37047
+82,"Tyson Foods, Inc.","Alimentos, Bebidas e Tabaco",36881
+83,"United Continental Holdings, Inc.",Transporte,36556
+84,"The Allstate Corporation",Finanças,36534
+85,"Publix Super Markets, Inc.","Lojas e Drogarias",34274
+86,"American Express Company",Finanças,33823
+87,"The TJX Companies, Inc.",Varejo,33184
+88,"Nike, Inc.",Roupas,32376
+89,"Exelon Corporation",Energia,31360
+90,"General Dynamics Corporation","Aeroespacial e Defesa",31353
+91,"Rite Aid Corporation","Lojas e Drogarias",30737
+92,"Gilead Sciences, Inc.","Assistência médica",30390
+93,"CHS Inc.","Alimentos, Bebidas e Tabaco",30347
+94,"3M Company",Industrial,30109
+95,"Time Warner Inc.",Midia,29318
+96,"Charter Communications, Inc.",Telecomunicações,29003
+97,"Northwestern Mutual Life Insurance Company, Inc.",Finanças,28799
+98,"Facebook, Inc.",Tecnologia,27638
+99,"The Travelers Companies, Inc.",Finanças,27625
+100,"Capital One Financial Corporation",Finanças,27519
+101,"Twenty-First Century Fox, Inc.",Midia,27326
+102,"United Services Automobile Association",Finanças,27131
+103,"World Fuel Services Corporation",Energia,27016
+104,"Philip Morris International Inc.","Alimentos, Bebidas e Tabaco",26685
+105,"Deere & Company",Industrial,26644
+106,"The Kraft Heinz Company","Alimentos, Bebidas e Tabaco",26487
+107,"Tech Data Corporation",Atacadista,26235
+108,"Avnet, Inc.",Atacadista,26219
+109,"Mondelez International, Inc.","Alimentos, Bebidas e Tabaco",25923
+110,"Macy's, Inc.",Varejo,25778
+111,"AbbVie Inc.","Assistência médica",25638
+112,"McDonald's Corporation","Hotéis, Restaurantes e Lazer",24622
+113,"E.I. du Pont de Nemours and Company","Produtos químicos",0
+114,"Northrop Grumman Corporation","Aeroespacial e Defesa",0
+115,ConocoPhillips,Energia,24360
+116,"Raytheon Company","Aeroespacial e Defesa",24069
+117,"Tesoro Corporation",Energia,24005
+118,"Arrow Electronics, Inc",Atacadista,23825
+119,"Qualcomm Incorporated",Tecnologia,23554
+120,"The Progressive Corporation",Finanças,23441
+121,"Duke Energy Corporation",Energia,23369
+122,"Enterprise Products Partners L.P.",Energia,23022
+123,"Amgen Inc.","Assistência médica",22991
+124,"US Foods Holding Corp.",Atacadista,22919
+125,"U.S. Bancorp",Finanças,22744
+126,"Aflac Incorporated",Finanças,22559
+127,"Sears Holdings Corporation",Varejo,22138
+128,"Dollar General Corporation",Varejo,21987
+129,"AutoNation, Inc.",Varejo,21609
+130,"Community Health Systems, Inc.","Assistência médica",21374
+131,"Starbucks Corporation","Hotéis, Restaurantes e Lazer",21316
+132,"Eli Lilly and Company","Assistência médica",21222
+133,"International Paper Company",Materiais,21079
+134,"Tenet Healthcare Corporation","Assistência médica",21070
+135,"Abbott Laboratories","Assistência médica",20853
+136,"Dollar Tree, Inc.",Varejo,20719
+137,"Whirlpool Corporation",Industrial,20718
+138,"Southwest Airlines Co.",Transporte,20425
+139,"Emerson Electric Co.",Industrial,20268
+140,"Staples, Inc.",Varejo,20217
+141,"Plains GP Holdings, L.P.",Energia,20182
+142,"Penske Automotive Group, Inc.",Varejo,20143
+143,"Union Pacific Corporation",Transporte,19941
+144,"Danaher Corporation",Tecnologia,19912
+145,"The Southern Company",Energia,19896
+146,"ManpowerGroup Inc.","Prestação de Serviços",19654
+147,"Bristol-Myers Squibb Company","Assistência médica",19427
+148,"Altria Group, Inc.","Alimentos, Bebidas e Tabaco",19337
+149,"Fluor Corporation","Engenharia e Construção",19037
+150,"Kohl's Corporation",Varejo,18686
+151,"Lear Corporation","Veículos motorizados",18558
+152,"Jabil Circuit, Inc.",Tecnologia,18353
+153,"The Hartford Financial Services Group, Inc.",Finanças,18300
+154,"Thermo Fisher Scientific Inc.",Tecnologia,18274
+155,"Kimberly-Clark Corporation","Produtos para o lar",18202
+156,"Molina Healthcare, Inc.","Assistência médica",17782
+157,"PG&E Corporation",Energia,17666
+158,"Supervalu Inc.","Lojas e Drogarias",17529
+159,"Cummins Inc.",Industrial,17509
+160,"CenturyLink, Inc.",Telecomunicações,17470
+161,AECOM,"Engenharia e Construção",17411
+162,"Xerox Corporation",Tecnologia,17126
+163,"Marriott International, Inc.","Hotéis, Restaurantes e Lazer",17072
+164,"PACCAR Inc",Industrial,17033
+165,"General Mills, Inc.","Alimentos, Bebidas e Tabaco",16563
+166,"The PNC Financial Services Group, Inc.",Finanças,16423
+167,"American Electric Power Company, Inc.",Energia,16380
+168,"Icahn Enterprises L.P.",Finanças,16348
+169,"Nucor Corporation",Materiais,16208
+170,"NextEra Energy, Inc.",Energia,16155
+171,"Performance Food Group Company",Atacadista,16105
+172,"PBF Energy Inc.",Energia,15920
+173,"Halliburton Company",Energia,15887
+174,"CarMax, Inc.",Varejo,15833
+175,"Freeport-McMoRan Inc.",Energia,15789
+176,"Whole Foods Market, Inc.","Lojas e Drogarias",15724
+177,"The Bank of New York Mellon Corporation",Finanças,15683
+178,"The Gap, Inc.",Varejo,15516
+179,"Omnicom Group Inc.","Prestação de Serviços",15417
+180,"Genuine Parts Company",Atacadista,15340
+181,"DaVita Inc.","Assistência médica",15197
+182,"Colgate-Palmolive Company","Produtos para o lar",15195
+183,"PPG Industries, Inc.","Produtos químicos",15178
+184,"The Goodyear Tire & Rubber Company","Veículos motorizados",15158
+185,"Synchrony Financial",Finanças,15122
+186,"DISH Network Corporation",Telecomunicações,15095
+187,"Visa Inc.","Prestação de Serviços",15082
+188,"Nordstrom, Inc.",Varejo,14757
+189,"INTL FCStone Inc.",Finanças,14755
+190,"WestRock Company",Materiais,14706
+191,"XPO Logistics, Inc.",Transporte,14619
+192,Aramark,"Prestação de Serviços",14416
+193,"CBS Corporation",Midia,14386
+194,"The AES Corporation",Energia,14287
+195,"WellCare Health Plans, Inc.","Assistência médica",14237
+196,"FirstEnergy Corp.",Energia,14156
+197,"Conagra Brands, Inc.","Alimentos, Bebidas e Tabaco",14134
+198,"Synnex Corporation",Atacadista,14062
+199,"CDW Corporation",Tecnologia,13982
+200,"Textron Inc.","Aeroespacial e Defesa",13788
+201,"Waste Management, Inc.","Prestação de Serviços",13609
+202,"Illinois Tool Works Inc.",Industrial,0
+203,"Office Depot, Inc.",Varejo,13585
+204,"Monsanto Company","Produtos químicos",13502
+205,"Cognizant Technology Solutions Corporation",Tecnologia,13487
+206,"Texas Instruments Incorporated",Tecnologia,13370
+207,"Lincoln National Corporation",Finanças,13330
+208,"Newell Brands Inc.","Produtos para o lar",13264
+209,"Land O'Lakes, Inc.","Alimentos, Bebidas e Tabaco",13233
+210,"Marsh & McLennan Companies, Inc.",Finanças,13211
+211,"Ecolab Inc.","Produtos químicos",13153
+212,"C. H. Robinson Worldwide, Inc.",Transporte,13144
+213,"Loews Corporation",Finanças,13105
+214,"CBRE Group, Inc.",Finanças,13072
+215,"Kinder Morgan, Inc.",Energia,13058
+216,"Kellogg Company","Alimentos, Bebidas e Tabaco",13014
+217,"Western Digital Corporation",Tecnologia,12994
+218,"Guardian Life Ins. Co. of America",Finanças,12919
+219,"Ross Stores, Inc.",Varejo,12867
+220,"L Brands, Inc.",Varejo,12574
+221,"J.C. Penney Company, Inc.",Varejo,12547
+222,"Farmers Insurance Exchange",Finanças,12513
+223,"Reynolds American Inc.","Alimentos, Bebidas e Tabaco",12503
+224,"Viacom Inc.",Midia,12488
+225,"Becton, Dickinson and Company","Assistência médica",12483
+226,"Micron Technology, Inc.",Tecnologia,12399
+227,"Principal Financial Group, Inc.",Finanças,12394
+228,"Arconic Inc.","Aeroespacial e Defesa",12394
+229,"NRG Energy, Inc.",Energia,12351
+230,"V.F. Corporation",Roupas,12207
+231,"Devon Energy Corporation",Energia,12197
+232,"D.R. Horton, Inc.","Engenharia e Construção",12157
+233,"Bed Bath & Beyond Inc.",Varejo,12104
+234,"Consolidated Edison, Inc.",Energia,12075
+235,"Edison International",Energia,11869
+236,"The Sherwin-Williams Company","Produtos químicos",11856
+237,"NGL Energy Partners LP",Energia,11742
+238,"Dominion Energy, Inc.",Energia,11737
+239,"Ameriprise Financial, Inc.",Finanças,11735
+240,"Automatic Data Processing, Inc.","Prestação de Serviços",11668
+241,"Hilton Worldwide Holdings Inc.","Hotéis, Restaurantes e Lazer",11663
+242,"First Data Corporation","Prestação de Serviços",11584
+243,"Henry Schein, Inc.",Atacadista,11572
+244,"Toys "R"" Us, Inc."",Varejo,11540
+245,"BB&T Corporation",Finanças,11538
+246,"Reinsurance Group of America, Incorporated",Finanças,11522
+247,"Core-Mark Holding Company, Inc.",Atacadista,11507
+248,"Biogen Inc.","Assistência médica",11449
+249,"Las Vegas Sands Corp.","Hotéis, Restaurantes e Lazer",11410
+250,"Stanley Black & Decker, Inc.","Produtos para o lar",11407
+251,"Parker-Hannifin Corporation",Industrial,11361
+252,"Stryker Corporation","Assistência médica",11325
+253,"The Estee Lauder Companies Inc.","Produtos para o lar",11262
+254,"Celgene Corporation","Assistência médica",11229
+255,"BlackRock, Inc.",Finanças,11155
+256,"Xcel Energy Inc.",Energia,11107
+257,"CSX Corporation",Transporte,11069
+258,"Unum Group",Finanças,11047
+259,"Jacobs Engineering Group Inc.","Engenharia e Construção",10964
+260,"Lennar Corporation","Engenharia e Construção",10950
+261,"Group 1 Automotive, Inc.",Varejo,10888
+262,"Leucadia National Corporation",Finanças,10875
+263,"Entergy Corporation",Energia,10846
+264,"PayPal Holdings, Inc.","Prestação de Serviços",10842
+265,"Applied Materials, Inc.",Tecnologia,10825
+266,"Voya Financial, Inc.",Finanças,10782
+267,"Mastercard Incorporated","Prestação de Serviços",10776
+268,"The Priceline Group Inc.",Tecnologia,10743
+269,"Liberty Interactive Corporation",Varejo,10647
+270,"AutoZone, Inc.",Varejo,10636
+271,"State Street Corporation",Finanças,10635
+272,"DTE Energy Company",Energia,10630
+273,"L3 Technologies, Inc.","Aeroespacial e Defesa",10597
+274,"HollyFrontier Corporation",Energia,10536
+275,"Praxair, Inc.","Produtos químicos",10534
+276,"Universal Health Services, Inc.","Assistência médica",10508
+277,"Discover Financial Services",Finanças,10497
+278,"Occidental Petroleum Corporation",Energia,10398
+279,"United States Steel Corporation",Materiais,10261
+280,"Sempra Energy",Energia,10183
+281,"Baxter International Inc.","Assistência médica",10163
+282,"W.W. Grainger, Inc.",Atacadista,10137
+283,"Autoliv, Inc.","Veículos motorizados",10074
+284,"Norfolk Southern Corporation",Transporte,9888
+285,"Baker Hughes Incorporated",Energia,9841
+286,"Ally Financial Inc.",Finanças,9835
+287,"Sonic Automotive, Inc",Varejo,9732
+288,"Owens & Minor, Inc.",Atacadista,9723
+289,"Huntsman Corporation","Produtos químicos",9657
+290,"Laboratory Corporation of America Holdings","Assistência médica",9642
+291,"Murphy USA Inc.",Varejo,9633
+292,"Advance Auto Parts, Inc.",Varejo,9568
+293,"Fidelity National Financial, Inc.",Finanças,9554
+294,"Air Products & Chemicals, Inc.","Produtos químicos",9524
+295,"Hormel Foods Corporation","Alimentos, Bebidas e Tabaco",9523
+296,"Hertz Global Holdings, Inc.",Varejo,9480
+297,"MGM Resorts International","Hotéis, Restaurantes e Lazer",9455
+298,"Corning Incorporated",Industrial,9390
+299,"Republic Services, Inc.","Prestação de Serviços",9388
+300,"Alcoa Corporation",Materiais,9318
+301,"Fidelity National Information Services, Inc.","Prestação de Serviços",9241
+302,"Pacific Life",Finanças,9169
+303,"SunTrust Banks, Inc.",Finanças,9161
+304,"LKQ Corporation",Atacadista,9082
+305,"BorgWarner Inc.","Veículos motorizados",9071
+306,"Ball Corporation",Materiais,9061
+307,"CST Brands, Inc.",Varejo,9061
+308,"Public Service Enterprise Group Incorporated",Energia,9061
+309,"Eastman Chemical Company","Produtos químicos",9008
+310,"eBay Inc.",Tecnologia,8979
+311,"Mohawk Industries, Inc.","Produtos para o lar",8959
+312,"ONEOK, Inc.",Energia,8921
+313,"Frontier Communications Corporation",Telecomunicações,8896
+314,"Netflix, Inc.",Tecnologia,8831
+315,"American Family Insurance Group",Finanças,8829
+316,"Thrivent Financial for Lutherans",Finanças,8777
+317,"Expedia, Inc.",Tecnologia,8774
+318,"Lithia Motors, Inc.",Varejo,8678
+319,"Avis Budget Group, Inc.",Varejo,8659
+320,"Reliance Steel & Aluminum Co.",Materiais,8613
+321,"GameStop Corp.",Varejo,8608
+322,"Tenneco Inc.","Veículos motorizados",8599
+323,"O'Reilly Automotive, Inc.",Varejo,8593
+324,"Peter Kiewit Sons', Inc.","Engenharia e Construção",8573
+325,"United Natural Foods, Inc.",Atacadista,8470
+326,"salesforce.com, inc.",Tecnologia,8392
+327,"Boston Scientific Corporation","Assistência médica",8386
+328,"Newmont Mining Corporation",Energia,8379
+329,"Genworth Financial, Inc.",Finanças,8369
+330,"Live Nation Entertainment, Inc.",Midia,8355
+331,"Veritiv Corp",Atacadista,8327
+332,"News Corporation",Midia,8319
+333,"Crown Holdings, Inc.",Materiais,8284
+334,"Global Partners LP",Atacadista,8240
+335,"PVH Corp.",Roupas,8203
+336,"Level 3 Communications, Inc.",Telecomunicações,8172
+337,"Navistar International Corporation",Industrial,8111
+338,"Univar Inc.",Atacadista,8074
+339,"Campbell Soup Company","Alimentos, Bebidas e Tabaco",7961
+340,"Dick's Sporting Goods, Inc.",Varejo,7922
+341,"Weyerhaeuser Company",Materiais,7902
+342,"Mutual of Omaha Insurance Company",Finanças,7899
+343,"Chesapeake Energy Corporation",Energia,7872
+344,"Anadarko Petroleum Corporation",Energia,7869
+345,"The Interpublic Group of Companies, Inc.","Prestação de Serviços",0
+346,"The J.M. Smucker Company","Alimentos, Bebidas e Tabaco",7811
+347,"Steel Dynamics, Inc.",Materiais,7777
+348,"Foot Locker, Inc.",Varejo,7766
+349,"Western Refining, Inc.",Energia,7743
+350,"SpartanNash Company",Atacadista,7735
+351,"Dean Foods Company","Alimentos, Bebidas e Tabaco",7710
+352,"Zimmer Biomet Holdings, Inc.","Assistência médica",7684
+353,"PulteGroup, Inc.","Engenharia e Construção",7669
+354,"W.R. Berkley Corporation",Finanças,7654
+355,"Quanta Services, Inc.","Engenharia e Construção",7651
+356,"EOG Resources, Inc.",Energia,7651
+357,"The Charles Schwab Corporation",Finanças,7644
+358,"Eversource Energy",Energia,7639
+359,"Anixter International Inc.",Atacadista,7625
+360,"EMCOR Group, Inc.","Engenharia e Construção",7552
+361,"Assurant, Inc.",Finanças,7532
+362,"CenterPoint Energy, Inc.",Energia,7528
+363,"Harris Corporation",Tecnologia,7527
+364,"HD Supply Holdings, Inc.",Atacadista,7524
+365,"PPL Corporation",Energia,7517
+366,"Quest Diagnostics Incorporated","Assistência médica",7515
+367,"The Williams Companies, Inc.",Energia,7499
+368,"WEC Energy Group, Inc.",Energia,7472
+369,"The Hershey Company","Alimentos, Bebidas e Tabaco",7440
+370,"AGCO Corporation",Industrial,7411
+371,"Ralph Lauren Corporation",Roupas,7405
+372,"Masco Corporation","Produtos para o lar",7357
+373,"WESCO International, Inc.",Atacadista,7336
+374,"LifePoint Health, Inc.","Assistência médica",7274
+375,"National Oilwell Varco, Inc.",Energia,7251
+376,"Kindred Healthcare, Inc.","Assistência médica",7227
+377,"The Mosaic Company","Produtos químicos",7163
+378,"Alliance Data Systems Corporation","Prestação de Serviços",7138
+379,"Computer Sciences Corporation",Tecnologia,7106
+380,"Huntington Ingalls Industries, Inc.","Aeroespacial e Defesa",7068
+381,"Leidos Holdings, Inc.",Tecnologia,7043
+382,"Erie Insurance Group",Finanças,7016
+383,"Tesla, Inc.","Veículos motorizados",7000
+384,"Ascena Retail Group, Inc.",Varejo,6995
+385,"Darden Restaurants, Inc.","Hotéis, Restaurantes e Lazer",6934
+386,"Harman International Industries, Incorporated",Industrial,6912
+387,"NVIDIA Corporation",Tecnologia,6910
+388,"R.R. Donnelley & Sons Company",Midia,6896
+389,"Fifth Third Bancorp",Finanças,6889
+390,"Quintiles IMS Holdings, Inc.","Assistência médica",6878
+391,"Jones Lang LaSalle Incorporated",Finanças,6804
+392,"Dover Corporation",Industrial,6794
+393,"Spirit AeroSystems Holdings, Inc.","Aeroespacial e Defesa",6793
+394,"Ryder System, Inc.",Transporte,6787
+395,"A-Mark Precious Metals, Inc.",Materiais,6784
+396,"Tractor Supply Company",Varejo,6780
+397,"Sealed Air Corporation",Materiais,6778
+398,"Auto-Owners Insurance Group",Finanças,6775
+399,"Yum China Holdings, Inc.","Hotéis, Restaurantes e Lazer",6752
+400,"Calpine Corporation",Energia,6716
+401,"Owens-Illinois, Inc.",Materiais,6702
+402,"Targa Resources Corp.",Energia,6691
+403,"The Jones Financial Companies, L.L.L.P.",Finanças,6632
+404,"JetBlue Airways Corporation",Transporte,6632
+405,"Franklin Resources, Inc.",Finanças,6618
+406,"Activision Blizzard, Inc.",Tecnologia,6608
+407,"J.B. Hunt Transport Services, Inc.",Transporte,6556
+408,"Constellation Brands, Inc.","Alimentos, Bebidas e Tabaco",6548
+409,"NCR Corporation",Tecnologia,6543
+410,"Asbury Automotive Group, Inc.",Varejo,6528
+411,"American Financial Group, Inc.",Finanças,6498
+412,"Discovery Communications, Inc.",Midia,6497
+413,"Berry Global Group, Inc.",Materiais,6489
+414,"Sanmina Corporation",Tecnologia,6481
+415,"CalAtlantic Group, Inc.","Engenharia e Construção",6477
+416,"Dr Pepper Snapple Group, Inc.","Alimentos, Bebidas e Tabaco",0
+417,"Dillard's, Inc.",Varejo,6418
+418,"HRG Group, Inc.","Produtos para o lar",6403
+419,"CMS Energy Corporation",Energia,6399
+420,"Graybar Electric Company, Inc.",Atacadista,6385
+421,"Builders FirstSource, Inc.",Materiais,6367
+422,"Yum! Brands, Inc.","Hotéis, Restaurantes e Lazer",6366
+423,"Casey's General Stores, Inc.",Varejo,6304
+424,"Amphenol Corporation",Tecnologia,6286
+425,"Oshkosh Corporation",Industrial,6279
+426,"iHeartMedia, Inc.",Midia,6274
+427,"TreeHouse Foods, Inc.","Alimentos, Bebidas e Tabaco",6175
+428,"Alleghany Corporation",Finanças,6131
+429,"Expeditors International of Washington, Inc.",Transporte,6098
+430,"Avery Dennison Corporation",Materiais,6087
+431,"Ameren Corporation",Energia,6076
+432,"Hanesbrands Inc.",Roupas,6063
+433,"Motorola Solutions, Inc.",Tecnologia,6038
+434,"St. Jude Medical, Inc.","Assistência médica",6004
+435,"Harley-Davidson, Inc.",Transporte,5997
+436,"Regions Financial Corporation",Finanças,5967
+437,"Intercontinental Exchange, Inc.",Finanças,5958
+438,"Alaska Air Group, Inc.",Transporte,5931
+439,"Old Republic International Corporation",Finanças,5901
+440,"Lam Research Corporation",Tecnologia,5886
+441,"AK Steel Holding Corporation",Materiais,5883
+442,"Rockwell Automation, Inc.",Industrial,5880
+443,"Adobe Systems Incorporated",Tecnologia,5854
+444,"Avon Products, Inc.","Produtos para o lar",5853
+445,"Terex Corporation",Industrial,5841
+446,"NVR, Inc.","Engenharia e Construção",5835
+447,"Dana Incorporated","Veículos motorizados",5826
+448,"Realogy Holdings Corp.",Finanças,5810
+449,"American Tower Corporation",Telecomunicações,5786
+450,"Packaging Corporation of America",Materiais,5779
+451,"Citizens Financial Group, Inc.",Finanças,5763
+452,"United Rentals, Inc.","Prestação de Serviços",5762
+453,"The Clorox Company","Produtos para o lar",5761
+454,"Genesis Healthcare, Inc.","Assistência médica",5733
+455,"M&T Bank Corporation",Finanças,5722
+456,"Ingredion Incorporated","Alimentos, Bebidas e Tabaco",5704
+457,"UGI Corporation",Energia,5686
+458,"Owens Corning",Materiais,5677
+459,"S&P Global Inc.","Prestação de Serviços",5661
+460,"Markel Corporation",Finanças,5612
+461,"Wyndham Worldwide Corporation","Hotéis, Restaurantes e Lazer",5599
+462,"Arthur J. Gallagher & Co.",Finanças,5595
+463,"Burlington Stores, Inc.",Varejo,5591
+464,"First American Financial Corporation",Finanças,5576
+465,"Symantec Corporation",Tecnologia,5568
+466,"Patterson Companies, Inc.",Atacadista,5555
+467,"Olin Corporation","Produtos químicos",5551
+468,"NetApp, Inc.",Tecnologia,5546
+469,"Raymond James Financial, Inc.",Finanças,5520
+470,"TravelCenters of America LLC",Varejo,5511
+471,"Fiserv, Inc.","Prestação de Serviços",5505
+472,"Host Hotels & Resorts, Inc.",Finanças,5488
+473,"Insight Enterprises, Inc.",Atacadista,5486
+474,"Mattel, Inc.","Produtos para o lar",5457
+475,"AmTrust Financial Services, Inc.",Finanças,5451
+476,"Cincinnati Financial Corporation",Finanças,5449
+477,"Simon Property Group, Inc.",Finanças,5435
+478,"The Western Union Company","Prestação de Serviços",5423
+479,KeyCorp,Finanças,5422
+480,"Delek US Holdings, Inc.",Energia,5414
+481,"Booz Allen Hamilton Holding Corp.",Tecnologia,5406
+482,"The Chemours Company","Produtos químicos",5400
+483,"Western & Southern Mutual Holding Company",Finanças,5398
+484,"Celanese Corporation","Produtos químicos",5389
+485,"Windstream Holdings, Inc.",Telecomunicações,5387
+486,"Seaboard Corporation","Alimentos, Bebidas e Tabaco",5379
+487,"Essendant Inc.",Atacadista,5369
+488,"Apache Corporation",Energia,5354
+489,"Airgas, Inc.",Atacadista,5314
+490,"Kelly Services, Inc.","Prestação de Serviços",5277
+491,"Liberty Media Corporation",Midia,5276
+492,"Rockwell Collins, Inc.","Aeroespacial e Defesa",5259
+493,"Robert Half International Inc.","Prestação de Serviços",5250
+494,"CH2M HILL Companies, Ltd.","Engenharia e Construção",5236
+495,"Big Lots, Inc.",Varejo,5200
+496,"The Michaels Companies, Inc.",Varejo,5197
+497,"Toll Brothers, Inc.","Engenharia e Construção",5170
+498,"Yahoo! Inc.",Tecnologia,5169
+499,"Vistra Energy Corp.",Energia,5164
+500,"ABM Industries Incorporated","Prestação de Serviços",5145
+501,"IBM Industries Incorporated","Prestação de Serviços",5145

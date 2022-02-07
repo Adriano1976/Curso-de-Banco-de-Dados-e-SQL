@@ -46,17 +46,6 @@ select * from Pilotos
 where Nome like '%Vader'  
 GO  
 
-select * from Planetas
-GO  
-
-select * from Naves
-GO  
-
-select * from PilotosNaves
-GO  
-
-select * from HistoricoViagens
-GO  
 
 select 
 	case 

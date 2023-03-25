@@ -1,8 +1,24 @@
+# Curso de Banco de Dados e SQL
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/17755195/145330239-b1f94fde-0d9f-4b63-b9a5-98b64dc74171.jpg" width="750" title="Curso de Banco de Dados e SQL">  
 </p>
 
-# Curso de Banco de Dados e SQL
+## Por que devo aprender a trabalhar com a linguagem SQL?
+
+Aprender a trabalhar com SQL (Structured Query Language) pode ser benéfico por várias razões, incluindo:
+
+* Gerenciamento de dados: SQL é uma linguagem de consulta usada para gerenciar e manipular dados em bancos de dados relacionais. Aprender SQL permitirá que você crie, atualize e exclua registros em um banco de dados, bem como execute consultas complexas para analisar e extrair informações valiosas.
+
+* Habilidade valorizada: Há uma grande demanda por profissionais com habilidades em SQL em muitas áreas, incluindo negócios, finanças, saúde, governo e tecnologia da informação. Aprender SQL pode ajudá-lo a destacar-se em sua carreira e aumentar suas oportunidades de emprego.
+
+* Melhoria da eficiência: Com a capacidade de executar consultas SQL para analisar dados, você pode economizar tempo e aumentar a eficiência de tarefas repetitivas, como relatórios e análises de dados.
+
+* Trabalho em equipe: Compreender SQL também permite colaborar e trabalhar em equipe com outros desenvolvedores de bancos de dados, programadores e analistas de dados.
+
+* Análise de dados: Ao compreender SQL, você terá habilidades para manipular dados e realizar análises em um nível mais avançado, ajudando a tomar melhores decisões de negócios e otimizar processos.
+
+Esses são apenas alguns dos motivos pelos quais aprender SQL pode ser uma habilidade valiosa para o seu conjunto de habilidades. É uma ferramenta poderosa que pode ser aplicada em muitos campos e pode ajudar você a avançar em sua carreira.
 
 Nesse repositório encontra-se todos os meus estudos até o momento. Todo o material, projeto e codigos estão separados em pastas. 
  
